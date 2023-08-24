@@ -84,9 +84,9 @@ $$\Rightarrow T_{\theta}^{0}(x) = x$$
 
 $$\Rightarrow T_{\theta}^{1}(x) = T_{\theta}^{0}(x)$$
 
-$$\Rightarrow T_{\theta}^{2}(x) = T_{\theta}^{1}\left( T_{\theta}^{0}(x) \right)$$
+$$\Rightarrow T_{\theta}^{2}(x) = T_{\theta}^{1}( T_{\theta}^{0}(x) )$$
 
-$$\Rightarrow T_{\theta}^{n} = \left( T_{\theta} \circ T_{\theta} \circ \cdots \circ T_{\theta} \right)(x)$$
+$$\Rightarrow T_{\theta}^{n} = ( T_{\theta} \circ T_{\theta} \circ \cdots \circ T_{\theta} )(x)$$
 
 ***Lemma 1***
 
@@ -111,7 +111,7 @@ $$= { (x + n\theta) - \lbrack x + n\theta\rbrack + \theta }$$
 
 $$= { x + (n + 1)\theta - \lbrack x + n\theta\rbrack }$$
 
-$$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta - \lbrack x + n\theta\rbrack \right\rbrack$$
+$$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta - \lbrack x + n\theta\rbrack \rbrack$$
 
 $$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta \rbrack + \lbrack x + n\theta\rbrack$$
 
@@ -146,7 +146,7 @@ Essendo $\theta$ dato dal rapporto di due numeri interi, allora è un
 numero razionale e si può scrivere più in generale:
 
 $\Rightarrow \theta = \frac{N}{M}\mathbb{\in Q}$ con
-$N,M\mathbb{\in Z \smallsetminus}\left\{ 0 \right\}$
+$N,M\mathbb{\in Z \smallsetminus}{ 0 }$
 
 Per $\theta = 0$, si ha il caso base della definizione ed il teorema è
 chiaramente verificato. Mentre per dimostrare il teorema globalmente
@@ -236,7 +236,7 @@ $$\Rightarrow \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
 Si consideri ora la successione:
 
-$$\Rightarrow { x_{j} \right\}_{j} = \left\{ T_{\theta}^{j\left( n_{0} - m_{0} \right)}(x) }$$
+$$\Rightarrow { x_{j} }_{j} = { T_{\theta}^{j( n_{0} - m_{0} )}(x) }$$
 
 Si nota che questa è una sotto-successione di
 ${ T_{\theta^{(x)}}^{n} }_{n}$.
@@ -245,7 +245,7 @@ Si applichi ora il *Lemma 2* tra due punti della sotto-successione:
 
 $$\Rightarrow \mathbb{d}( T_{\theta}^{j( n_{0} - m_{0} )}(x),T_{\theta}^{(j + 1)( n_{0} - m_{0} )}(x) )$$
 
-$$= \mathbb{d}\left( T_{\theta}^{j( n_{0} - m_{0} )}(x),T_{\theta}^{j( n_{0} - m_{0} )}( T_{\theta}^{n_{0} - m_{0}}(x) ) )$$
+$$= \mathbb{d}( T_{\theta}^{j( n_{0} - m_{0} )}(x),T_{\theta}^{j( n_{0} - m_{0} )}( T_{\theta}^{n_{0} - m_{0}}(x) ) )$$
 
 Si applica $T_{\theta}^{- j( n_{0} - m_{0} )}$:
 
