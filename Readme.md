@@ -115,7 +115,7 @@ $$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta -
 
 $$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta \rbrack + \lbrack x + n\theta\rbrack$$
 
-$= { x + (n + 1)\theta }$
+$$= { x + (n + 1)\theta }$$
 
 > ◻
 
