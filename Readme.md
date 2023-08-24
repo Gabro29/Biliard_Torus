@@ -145,8 +145,8 @@ $$\Rightarrow \theta = \frac{\lbrack x + N\theta\rbrack}{N}$$
 Essendo $\theta$ dato dal rapporto di due numeri interi, allora è un
 numero razionale e si può scrivere più in generale:
 
-$\Rightarrow \theta = \frac{N}{M} \in \mathbb{Q}$ con
-$N, M \in \mathbb{Z} \setminus 0$
+$\Rightarrow \theta = \frac{N}{M}\mathbb{\in Q}$ con $N,M\in\mathbb{Z} \setminus \{0\}$
+
 
 Per $\theta = 0$, si ha il caso base della definizione ed il teorema è
 chiaramente verificato. Mentre per dimostrare il teorema globalmente
