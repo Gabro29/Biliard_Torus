@@ -26,7 +26,7 @@ cui, piuttosto che far rimbalzare la pallina, è stato implementato
 l'effetto pac-man sulle pareti, in questo modo la pallina sbucherà fuori
 dalla parte opposta.
 
-![](media/image1.png){width="1.8958333333333333in"
+![](./image1.png){width="1.8958333333333333in"
 height="1.9479166666666667in"}
 
 **Costruzione delle traiettorie**
@@ -34,7 +34,7 @@ height="1.9479166666666667in"}
 A partire dalla prima traiettoria vengono tracciate le successive sulla
 base della seguente logica;
 
-![](media/image2.PNG){width="3.5131944444444443in"
+![](./image2.PNG){width="3.5131944444444443in"
 height="1.6541666666666666in"}
 
 È importante notare che l'angolo d'incidenza traiettoria-parete,
@@ -60,7 +60,7 @@ sovrapposte e quindi un ulteriore caso privo d'interesse.
 
 Innanzitutto si osservi l'animazione riportata di seguito:
 
-![](media/image3.gif){width="6.2625in" height="3.5208333333333335in"}
+![](./image3.gif){width="6.2625in" height="3.5208333333333335in"}
 
 Si nota che a partire da un segmento, unendo le due estremità, si giunge
 ad una circonferenza. Si passa poi ad un Toroide facendo ruotare la
@@ -170,7 +170,7 @@ E si scrive:
 $\Rightarrow \mathbb{d}(x,y) = \mathbb{d}\left( T_{\theta}^{n}(x),T_{\theta}^{n}(y) \right)$
 per ogni $n\mathbb{\in N}$
 
-![](media/image4.gif){width="5.249305555555556in"
+![](./image4.gif){width="5.249305555555556in"
 height="2.9506944444444443in"}
 
 Quando a partire dal segmento si giunge alla circonferenza, si hanno due
@@ -266,7 +266,7 @@ parametriche:
 $$\left\{ \begin{array}{r}
 x(\omega,\varphi) = \left( R + r \cdot \cos\omega \right)\cos\varphi \\
 y(\omega,\varphi) = \left( R + r \cdot \cos\omega \right)\sin\varphi \\
-z(\omega,\varphi) = r \cdot \sin\omega
+z(\omega,\varphi) = r \cdot \sin\omega \\
 \end{array}{\ \ \ \ \ \ \ \ \ \ \ con}{\ \omega},\ \varphi \in \lbrack 0,2\pi) \right.\ $$
 
 Dove $\omega$, *φ* sono gli angoli di rotazione, *r*  è il raggio del
@@ -276,7 +276,7 @@ rotazione del Toroide.
 Il motivo per il quale si giunge al Toroide è dato dalla seguente
 animazione esemplificativa:
 
-![](media/image5.gif){width="4.166666666666667in" height="3.125in"}
+![](./image5.gif){width="4.166666666666667in" height="3.125in"}
 
 Figura 5: È possibile ottenere un Toroide a partire da un rettangolo se
 si incollano tra di loro il bordo superiore e inferiore e poi quello
@@ -290,12 +290,12 @@ tridimensionale mediante le seguenti proporzioni:
 
 $$\Rightarrow \left\{ \begin{array}{r}
 \theta:2\pi = x:b \\
-\varphi:2\pi = y:h
+\varphi:2\pi = y:h \\
 \end{array} \right.\ $$
 
 $$\Rightarrow \left\{ \begin{array}{r}
 \theta = \frac{2\pi \cdot x}{b} \\
-\varphi = \frac{2\pi \cdot y}{h}
+\varphi = \frac{2\pi \cdot y}{h} \\
 \end{array} \right.\ 
 $$
 
@@ -458,12 +458,13 @@ Infine $\alpha$ può essere ricavato in due modi differenti: considerando
 il reciproco della proiezione dell'ipotenusa sull'asse delle ordinate,
 oppure considerando che $\frac{\alpha}{\beta} = \theta$.
 
-![](media/image6.PNG){width="6.129861111111111in" height="2.45in"}
+![](./image6.PNG){width="6.129861111111111in" height="2.45in"}
 
 **Simulazioni**
 
-![](media/image7.gif){width="6.100422134733158in" height="3.43125in"}Di
-seguito si riporta una simulazione relativa al caso di moto periodico.
+![](./image7.gif){width="6.100422134733158in"
+height="3.43125in"}Di seguito si riporta una simulazione relativa al
+caso di moto periodico.
 
 Si riportano inoltre i valori che caratterizzano tale simulazione.
 
@@ -483,7 +484,7 @@ Si riportano inoltre i valori che caratterizzano tale simulazione.
   $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
   ------------------------------------------------------------------------------------------------------------
 
-![](media/image8.gif){width="6.1in" height="3.43125in"}Di seguito si
+![](./image8.gif){width="6.1in" height="3.43125in"}Di seguito si
 riporta una simulazione relativa al caso di moto non periodico.
 
   -------------------------------------------------------------------------------------------------------------
