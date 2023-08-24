@@ -73,7 +73,7 @@ estese al caso tridimensionale.
 
 Si consideri dunque la funzione:
 
-$$\Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$$ con $\theta \mathbb{\in R}$*.*
+$\Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$ con $\theta \mathbb{\in R}$*.*
 
 $$x \mapsto { x + \theta }$$
 
@@ -103,13 +103,13 @@ $$\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$$
 
 Si applica $T_{\theta}$ ambo i membri:
 
-$$\Rightarrow T_{\theta} \circ T_{\theta}^{n}(x) = T_{\theta}\left( \left\{ x + n\theta \right\} \right)$$
+$$\Rightarrow T_{\theta} \circ T_{\theta}^{n}(x) = T_{\theta}( { x + n\theta } )$$
 
-$$\Rightarrow T_{\theta}^{n + 1}(x) = \left\{ \left\{ x + n\theta \right\} + \theta \right\}$$
+$$\Rightarrow T_{\theta}^{n + 1}(x) = { \left\{ x + n\theta } + \theta }$$
 
-$$= \left\{ (x + n\theta) - \lbrack x + n\theta\rbrack + \theta \right\}$$
+$$= { (x + n\theta) - \lbrack x + n\theta\rbrack + \theta }$$
 
-$$= \left\{ x + (n + 1)\theta - \lbrack x + n\theta\rbrack \right\}$$
+$$= { x + (n + 1)\theta - \lbrack x + n\theta\rbrack }$$
 
 $$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \left\lbrack x + (n + 1)\theta - \lbrack x + n\theta\rbrack \right\rbrack$$
 
