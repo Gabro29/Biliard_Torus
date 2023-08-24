@@ -73,7 +73,7 @@ estese al caso tridimensionale.
 
 Si consideri dunque la funzione:
 
-$$\Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$$ con $$\theta \mathbb{\in R}$$*.*
+$$\Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1) con \theta \mathbb{\in R}.$$
 
 $$x \mapsto { x + \theta }$$
 
