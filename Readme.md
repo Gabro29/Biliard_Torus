@@ -105,30 +105,30 @@ Si applica $T_{\theta}$ ambo i membri:
 
 $$\Rightarrow T_{\theta} \circ T_{\theta}^{n}(x) = T_{\theta}( { x + n\theta } )$$
 
-$$\Rightarrow T_{\theta}^{n + 1}(x) = { \left\{ x + n\theta } + \theta }$$
+$$\Rightarrow T_{\theta}^{n + 1}(x) = { { x + n\theta } + \theta }$$
 
 $$= { (x + n\theta) - \lbrack x + n\theta\rbrack + \theta }$$
 
 $$= { x + (n + 1)\theta - \lbrack x + n\theta\rbrack }$$
 
-$$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \left\lbrack x + (n + 1)\theta - \lbrack x + n\theta\rbrack \right\rbrack$$
+$$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta - \lbrack x + n\theta\rbrack \right\rbrack$$
 
-$$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \left\lbrack x + (n + 1)\theta \right\rbrack + \lbrack x + n\theta\rbrack$$
+$$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta \rbrack + \lbrack x + n\theta\rbrack$$
 
-$= \left\{ x + (n + 1)\theta \right\}$
+$= { x + (n + 1)\theta }$
 
 > ◻
 
 Si definisce inoltre l'immagine della successione
-$\left\{ T_{\theta}^{n}(x) \right\}_{n}$ ,
+${ T_{\theta}^{n}(x) }_{n}$ ,
 
 l'insieme
-$\Rightarrow \tau(x) = \left\{ T_{\theta}^{n}(x):n\mathbb{\in N} \right\}$.
+$\Rightarrow \tau(x) = { T_{\theta}^{n}(x):n\mathbb{\in N} }$.
 Vale che $\Rightarrow \tau(x) \subseteq \lbrack 0,1)$.
 
 ***Teorema 1***
 
-La successione $\left\{ T_{\theta}^{n}(x) \right\}_{n}$ è periodica
+La successione ${ T_{\theta}^{n}(x) }_{n}$ è periodica
 $\Leftrightarrow \theta\mathbb{\in Q}$.
 
 DIM:
@@ -153,7 +153,7 @@ chiaramente verificato. Mentre per dimostrare il teorema globalmente
 basta considerare anche un solo caso in cui si nota la periodicità. Per
 esempio, al passo $M$ si avrà:
 
-$$\Rightarrow T_{\theta}^{M}(x) = \left\{ x + M\theta \right\} = \left\{ x + M\frac{N}{M} \right\} = \left\{ x + N \right\} = \left\{ x \right\} = x = T_{\theta}^{0}(x)$$
+$$\Rightarrow T_{\theta}^{M}(x) = { x + M\theta } = { x + M\frac{N}{M} } = { x + N } = { x } = x = T_{\theta}^{0}(x)$$
 
 > ◻
 
@@ -162,11 +162,11 @@ $$\Rightarrow T_{\theta}^{M}(x) = \left\{ x + M\theta \right\} = \left\{ x + M\f
 Si definisce in $\tau(x)$ la distanza tra due punti
 $x,y \in \lbrack 0,1)$, la quantità:
 
-$$\Rightarrow \mathbb{d}(x,y) = min\left\{ |x - y|,|x - y + 1|,|x - y - 1| \right\}$$
+$$\Rightarrow \mathbb{d}(x,y) = min{ |x - y|,|x - y + 1|,|x - y - 1| }$$
 
 E si scrive:
 
-$\Rightarrow \mathbb{d}(x,y) = \mathbb{d}\left( T_{\theta}^{n}(x),T_{\theta}^{n}(y) \right)$
+$\Rightarrow \mathbb{d}(x,y) = \mathbb{d}( T_{\theta}^{n}(x),T_{\theta}^{n}(y) )$
 per ogni $n\mathbb{\in N}$
 
 ![](./image4.gif){width="5.249305555555556in"
@@ -180,7 +180,7 @@ seconda dei casi.
 
 ***Teorema 2***
 
-La successione $\left\{ T_{\theta}^{n}(x) \right\}_{n}$ non è periodica
+La successione ${ T_{\theta}^{n}(x) }_{n}$ non è periodica
 $\Leftrightarrow \theta\mathbb{\in R \smallsetminus Q}$. In altre parole
 l'immagine $\tau(x)$ è densa in $\lbrack 0,1)$.
 
@@ -194,7 +194,7 @@ Se così non fosse sarebbe:
 $\Rightarrow T_{\theta}^{n}(x) = T_{\theta}^{m}(x)$ per qualche
 $n,m\mathbb{\in N}$
 
-$$\Rightarrow \left\{ x + n\theta \right\} = \left\{ x + m\theta \right\}$$
+$$\Rightarrow { x + n\theta } = { x + m\theta }$$
 
 $$\Rightarrow x + n\theta - \lbrack x + n\theta\rbrack = x + m\theta - \lbrack x + m\theta\rbrack$$
 
@@ -218,38 +218,38 @@ questi stiano all'interno della precedente suddivisione, deve essere che
 almeno un intervallino ne contenga almeno due. Siano questi:
 
 $\Rightarrow T_{\theta}^{n_{0}}(x)\ e\ T_{\theta}^{m_{0}}(x)$ con
-$n_{0},m_{0} \in \left\{ 0,1,2,\ldots,N \right\}$
+$n_{0},m_{0} \in { 0,1,2,\ldots,N }$
 
 Vale quindi che:
 
-$$\Rightarrow \left| T_{\theta}^{n_{0}}(x)\  - \ T_{\theta}^{m_{0}}(x) \right| < \frac{1}{N}$$
+$$\Rightarrow | T_{\theta}^{n_{0}}(x)\  - \ T_{\theta}^{m_{0}}(x) | < \frac{1}{N}$$
 
 Tenendo conto del *Lemma 2* si ottiene che:
 
-$$\Rightarrow \mathbb{d}\left( \ T_{\theta}^{m_{0}}(x),\ T_{\theta}^{n_{0}}(x) \right) < \frac{1}{N}$$
+$$\Rightarrow \mathbb{d}( \ T_{\theta}^{m_{0}}(x),\ T_{\theta}^{n_{0}}(x) ) < \frac{1}{N}$$
 
 Si applica $T_{\theta}^{- m_{0}}$ (con $n_{0} > m_{0}$):
 
-$$\Rightarrow \mathbb{d}\left( \ T_{\theta}^{{- m}_{0}}(x) \circ T_{\theta}^{m_{0}}(x),\ ,\ T_{\theta}^{{- m}_{0}} \circ T_{\theta}^{n_{0}}(x) \right) < \frac{1}{N}$$
+$$\Rightarrow \mathbb{d}( \ T_{\theta}^{{- m}_{0}}(x) \circ T_{\theta}^{m_{0}}(x),\ ,\ T_{\theta}^{{- m}_{0}} \circ T_{\theta}^{n_{0}}(x) ) < \frac{1}{N}$$
 
-$$\Rightarrow \mathbb{d}\left( x,T_{\theta}^{n_{0} - m_{0}}(x) \right) < \frac{1}{N}$$
+$$\Rightarrow \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
 Si consideri ora la successione:
 
-$$\Rightarrow \left\{ x_{j} \right\}_{j} = \left\{ T_{\theta}^{j\left( n_{0} - m_{0} \right)}(x) \right\}$$
+$$\Rightarrow { x_{j} \right\}_{j} = \left\{ T_{\theta}^{j\left( n_{0} - m_{0} \right)}(x) }$$
 
 Si nota che questa è una sotto-successione di
-$\left\{ T_{\theta^{(x)}}^{n} \right\}_{n}$.
+${ T_{\theta^{(x)}}^{n} }_{n}$.
 
 Si applichi ora il *Lemma 2* tra due punti della sotto-successione:
 
-$$\Rightarrow \mathbb{d}\left( T_{\theta}^{j\left( n_{0} - m_{0} \right)}(x),T_{\theta}^{(j + 1)\left( n_{0} - m_{0} \right)}(x) \right)$$
+$$\Rightarrow \mathbb{d}( T_{\theta}^{j( n_{0} - m_{0} )}(x),T_{\theta}^{(j + 1)( n_{0} - m_{0} )}(x) )$$
 
-$$= \mathbb{d}\left( T_{\theta}^{j\left( n_{0} - m_{0} \right)}(x),T_{\theta}^{j\left( n_{0} - m_{0} \right)}\left( T_{\theta}^{n_{0} - m_{0}}(x) \right) \right)$$
+$$= \mathbb{d}\left( T_{\theta}^{j( n_{0} - m_{0} )}(x),T_{\theta}^{j( n_{0} - m_{0} )}( T_{\theta}^{n_{0} - m_{0}}(x) ) )$$
 
-Si applica $T_{\theta}^{- j\left( n_{0} - m_{0} \right)}$:
+Si applica $T_{\theta}^{- j( n_{0} - m_{0} )}$:
 
-$$= \mathbb{d}\left( x,T_{\theta}^{n_{0} - m_{0}}(x) \right) < \frac{1}{N}$$
+$$= \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
 > Quindi si è ottenuta una sotto-successione che ha un passo più breve
 > di quella di partenza. Poiché è possibile scegliere $N$ grande quanto
@@ -262,11 +262,11 @@ $\Rightarrow \tau(x)$ è densa in $\lbrack 0,1)$.
 Un Toroide può essere definito mediante le seguenti equazioni
 parametriche:
 
-$$\left\{ \begin{array}{r}
-x(\omega,\varphi) = \left( R + r \cdot \cos\omega \right)\cos\varphi \\
-y(\omega,\varphi) = \left( R + r \cdot \cos\omega \right)\sin\varphi \\
+$${ \begin{array}{r}
+x(\omega,\varphi) = ( R + r \cdot \cos\omega )\cos\varphi \\
+y(\omega,\varphi) = ( R + r \cdot \cos\omega )\sin\varphi \\
 z(\omega,\varphi) = r \cdot \sin\omega \\
-\end{array}{\ \ \ \ \ \ \ \ \ \ \ con}{\ \omega},\ \varphi \in \lbrack 0,2\pi) \right.\ $$
+\end{array}{\ \ \ \ \ \ \ \ \ \ \ con}{\ \omega},\ \varphi \in \lbrack 0,2\pi) .\ $$
 
 Dove $\omega$, *φ* sono gli angoli di rotazione, *r*  è il raggio del
 tubo del Toroide, *R*  è la distanza dal centro del tubo al centro di
@@ -287,15 +287,15 @@ loro, è possibile sfruttare tali punti per mappare una traiettoria
 curvilinea sul Toroide. Passando quindi da un grafico in 2D ad uno
 tridimensionale mediante le seguenti proporzioni:
 
-$$\Rightarrow \left\{ \begin{array}{r}
+$$\Rightarrow { \begin{array}{r}
 \theta:2\pi = x:b \\
 \varphi:2\pi = y:h \\
-\end{array} \right.\ $$
+\end{array} .\ $$
 
-$$\Rightarrow \left\{ \begin{array}{r}
+$$\Rightarrow { \begin{array}{r}
 \theta = \frac{2\pi \cdot x}{b} \\
 \varphi = \frac{2\pi \cdot y}{h} \\
-\end{array} \right.\ 
+\end{array} .\ 
 $$
 
 Dove *b* e *h* sono rispettivamente la base e l'altezza del rettangolo.
@@ -304,15 +304,15 @@ Toroide.
 
 **Toroide denso**
 
-Si consideri un punto $\left( x_{0},y_{0} \right) \in \lbrack 0,1)^{2}$
+Si consideri un punto $( x_{0},y_{0} ) \in \lbrack 0,1)^{2}$
 e due numeri
-$\alpha,\beta\mathbb{\in R \smallsetminus}\left\{ 0 \right\}$.
+$\alpha,\beta\mathbb{\in R \smallsetminus}\{ 0 }$.
 
 Quindi si definisce la mappa:
 
 $$\Rightarrow \phi\mathbb{:R \rightarrow}\lbrack 0,1)^{2}$$
 
-> $t \mapsto \left( \left\{ x_{0} + \alpha t \right\},\left\{ y_{0} + \beta t \right\} \right)$
+> $t \mapsto ( { x_{0} + \alpha t },{ y_{0} + \beta t } )$
 
 Tale mappa rappresenta un moto di natura continua sul Toroide, con
 velocità:
@@ -321,11 +321,11 @@ $$\Rightarrow \overrightarrow{v} = (\alpha,\beta)$$
 
 Per semplicità si scrive:
 
-$${\Rightarrow \phi}_{1}(t) = \left\{ x_{0} + \alpha t \right\}$$
+$${\Rightarrow \phi}_{1}(t) = { x_{0} + \alpha t }$$
 
-$${\Rightarrow \phi}_{2}(t) = \left\{ y_{0} + \beta t \right\}$$
+$${\Rightarrow \phi}_{2}(t) = { y_{0} + \beta t }$$
 
-$$\Rightarrow \phi(t) = \left( \phi_{1}(t),\phi_{2}(t) \right)$$
+$$\Rightarrow \phi(t) = ( \phi_{1}(t),\phi_{2}(t) )$$
 
 ***Teorema 3***
 
@@ -334,34 +334,34 @@ $\Leftrightarrow \frac{\alpha}{\beta}\mathbb{\in Q}$.
 
 DIM:
 
-Se $\phi(t) = \left( x_{0},y_{0} \right)$ allora
+Se $\phi(t) = ( x_{0},y_{0} )$ allora
 ${\Rightarrow \phi}_{1}(t) = x_{0}$ e
 ${\Rightarrow \phi}_{2}(t) = y_{0}$.
 
 Dalla prima si ha che:
 
-$$\Rightarrow \left\{ x_{0} + \alpha t \right\} = x_{0}$$
+$$\Rightarrow { x_{0} + \alpha t } = x_{0}$$
 
-$$\Rightarrow x_{0} + \alpha t - \left\lbrack x_{0} + \alpha t \right\rbrack = x_{0}$$
+$$\Rightarrow x_{0} + \alpha t - \lbrack x_{0} + \alpha t \rbrack = x_{0}$$
 
-$$\Rightarrow t = \frac{\left\lbrack x_{0} + \alpha t \right\rbrack}{\alpha}$$
+$$\Rightarrow t = \frac{\lbrack x_{0} + \alpha t \rbrack}{\alpha}$$
 
 O più in generale:
 
 $\Rightarrow t = \frac{n}{\alpha}$ con
-$n\mathbb{\in Z \smallsetminus}\left\{ 0 \right\}$
+$n\mathbb{\in Z \smallsetminus}{ 0 \}$
 
 Dalla seconda si ha che:*\
-*$$\Rightarrow \left\{ y_{0} + \beta t \right\} = y_{0}$$
+*$$\Rightarrow { y_{0} + \beta t } = y_{0}$$
 
-$$\Rightarrow y_{0} + \beta t - \left\lbrack y_{0} + \beta t \right\rbrack = y_{0}$$
+$$\Rightarrow y_{0} + \beta t - \lbrack y_{0} + \beta t \rbrack = y_{0}$$
 
-$$\Rightarrow t = \frac{\left\lbrack y_{0} + \beta t \right\rbrack}{\beta}$$
+$$\Rightarrow t = \frac{\lbrack y_{0} + \beta t \rbrack}{\beta}$$
 
 O più in generale:
 
 $\Rightarrow t = \frac{m}{\beta}$ con
-$m\mathbb{\in Z \smallsetminus}\left\{ 0 \right\}$
+$m\mathbb{\in Z \smallsetminus}{ 0 }$
 
 Essendo che la $t$ è la stessa in entrambi i casi, si possono eguagliare
 le equazioni:
@@ -373,10 +373,10 @@ $$\Rightarrow \frac{\alpha}{\beta} = \frac{n}{m}\mathbb{\  \in Q}$$
 Quindi preso $t = \frac{n}{\alpha}$ (ma lo stesso avviene con
 $t = \frac{m}{\beta}$ ) risulta che:
 
-$$\Rightarrow \phi(t) = \left( \left\{ x_{0} + n \right\},\left\{ y_{0} + \frac{\beta}{\alpha} \right\} \right)$$
+$$\Rightarrow \phi(t) = ( { x_{0} + n },{ y_{0} + \frac{\beta}{\alpha} } )$$
 
-$= \left( \left\{ x_{0} + n \right\},\left\{ y_{0} + \frac{m}{n} \right\} \right) = \left( x_{0},y_{0} \right)$
-per ogni $n,m\mathbb{\in Z \smallsetminus}\left\{ 0 \right\}$
+$= ( { x_{0} + n },{ y_{0} + \frac{m}{n} } ) = ( x_{0},y_{0} )$
+per ogni $n,m\mathbb{\in Z \smallsetminus}{ 0 }$
 
 ***Teorema 4***
 
@@ -385,38 +385,38 @@ $\Leftrightarrow \frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$.
 
 DIM:
 
-Sia $\left( x_{1},y_{1} \right) \in \lbrack 0,1)^{2}$, essendo
+Sia $( x_{1},y_{1} ) \in \lbrack 0,1)^{2}$, essendo
 $\beta > 0$ supponiamo sia
-${\Rightarrow \phi}_{2}\left( t_{0} \right) = y_{1}$.
+${\Rightarrow \phi}_{2}( t_{0} ) = y_{1}$.
 
 Allora si avrà ad un istante di tempo successivo che:
 
-$$\Rightarrow \phi_{2}\left( t_{0} + \frac{n}{\beta} \right) = \left\{ y_{0} + \beta t_{0} + n \right\} = \left\{ y_{0} + \beta t_{0} \right\}$$
+$$\Rightarrow \phi_{2}( t_{0} + \frac{n}{\beta} ) = { y_{0} + \beta t_{0} + n } = { y_{0} + \beta t_{0} }$$
 
-$= {\phi_{2}\left( t_{0} \right) = y}_{1}$ per ogni $n\mathbb{\in Z}$
+$= {\phi_{2}( t_{0} ) = y}_{1}$ per ogni $n\mathbb{\in Z}$
 
 In altre parole, ad intervalli di tempo $\frac{1}{\beta}$ la traiettoria
 della pallina interseca la retta $y = y_{1}$.
 
-Considerando la coordinata $\phi_{1}\left( t_{0} \right)$ al tempo
+Considerando la coordinata $\phi_{1}( t_{0} )$ al tempo
 $\frac{n}{\beta}$ , si ha che:
 
-$${\Rightarrow \phi}_{1}\left( t_{0} + \frac{n}{\beta} \right) = \left\{ x_{0} + \alpha t_{0} + {n \cdot \ }_{\overline{\beta}}^{\alpha} \right\} = T_{\frac{\alpha}{\beta}}^{n}\left( x_{0} + \alpha t_{0} \right)$$
+$${\Rightarrow \phi}_{1}( t_{0} + \frac{n}{\beta} ) = { x_{0} + \alpha t_{0} + {n \cdot \ }_{\overline{\beta}}^{\alpha} } = T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} )$$
 
 Dal *Teorema 2* è noto che
-$\left\{ T_{\frac{\alpha}{\beta}}^{n}\left( x_{0} + \alpha t_{0} \right) \right\}_{n}$è
+${ T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} ) }_{n}$è
 densa in $\lbrack 0,1)$ se
 $\frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$.
 
 Se ne conclude che:
 
-$$\mathbb{N} \ni n \mapsto \phi\left( t_{0} + \frac{n}{\alpha} \right) \in \lbrack 0,1)^{2}$$
+$$\mathbb{N} \ni n \mapsto \phi( t_{0} + \frac{n}{\alpha} ) \in \lbrack 0,1)^{2}$$
 
-Riempie densamente il segmento $\left( x,y_{1} \right)$ con
+Riempie densamente il segmento $( x,y_{1} )$ con
 $x \in \lbrack 0,1)$.
 
 Ma allora $t \mapsto \phi(t)$ si avvicina quanto si vuole anche a
-$\left( x_{1},y_{1} \right)$.
+$( x_{1},y_{1} )$.
 
 **Relazione tra Biliardo e Intervallo**
 
