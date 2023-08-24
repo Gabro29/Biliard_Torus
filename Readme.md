@@ -73,7 +73,7 @@ estese al caso tridimensionale.
 
 Si consideri dunque la funzione:
 
-$$\Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$$ *con* $\theta \mathbb{\in R}$*.*
+$$\Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$$ con $\theta \mathbb{\in R}$*.*
 
 $$x \mapsto { x + \theta }$$
 
@@ -90,7 +90,7 @@ $$\Rightarrow T_{\theta}^{n} = \left( T_{\theta} \circ T_{\theta} \circ \cdots \
 
 ***Lemma 1***
 
-Sia $\Rightarrow T_{\theta}^{n}(x) = \left\{ x + n\theta \right\}$ per
+Sia $\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$ per
 ogni $n\mathbb{\in N}$. Si dimostra per induzione.
 
 Per $n = 0$, si ha per definizione che:
@@ -99,7 +99,7 @@ $$\Rightarrow T_{\theta}^{0}(x) = x$$
 
 Al passo n si ha:
 
-$$\Rightarrow T_{\theta}^{n}(x) = \left\{ x + n\theta \right\}$$
+$$\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$$
 
 Si applica $T_{\theta}$ ambo i membri:
 
