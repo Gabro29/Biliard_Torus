@@ -26,7 +26,7 @@ cui, piuttosto che far rimbalzare la pallina, è stato implementato
 l'effetto pac-man sulle pareti, in questo modo la pallina sbucherà fuori
 dalla parte opposta.
 
-![](./image1.png){width="1.8958333333333333in"
+![](media/image1.png){width="1.8958333333333333in"
 height="1.9479166666666667in"}
 
 **Costruzione delle traiettorie**
@@ -34,7 +34,7 @@ height="1.9479166666666667in"}
 A partire dalla prima traiettoria vengono tracciate le successive sulla
 base della seguente logica;
 
-![](./image2.PNG){width="3.5131944444444443in"
+![](media/image2.PNG){width="3.5131944444444443in"
 height="1.6541666666666666in"}
 
 È importante notare che l'angolo d'incidenza traiettoria-parete,
@@ -60,7 +60,7 @@ sovrapposte e quindi un ulteriore caso privo d'interesse.
 
 Innanzitutto si osservi l'animazione riportata di seguito:
 
-![](./image3.gif){width="6.2625in" height="3.5208333333333335in"}
+![](media/image3.gif){width="6.2625in" height="3.5208333333333335in"}
 
 Si nota che a partire da un segmento, unendo le due estremità, si giunge
 ad una circonferenza. Si passa poi ad un Toroide facendo ruotare la
@@ -73,10 +73,10 @@ estese al caso tridimensionale.
 
 Si consideri dunque la funzione:
 
-$$\ \ \ \ \  \Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$
-con $\theta\mathbb{\in R}$$*.*
+$\ \ \ \ \  \Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$
+con $\theta\mathbb{\in R}$*.*
 
-$$x \mapsto { x + \theta}$$
+> $$x \mapsto \left\{ x + \theta \right\}$$
 
 Per semplicità si considera un segmento di lunghezza unitaria e si fissa
 un punto di partenza $x \in \lbrack 0,1)$. Vale che:
@@ -85,13 +85,13 @@ $$\Rightarrow T_{\theta}^{0}(x) = x$$
 
 $$\Rightarrow T_{\theta}^{1}(x) = T_{\theta}^{0}(x)$$
 
-$$\Rightarrow T_{\theta}^{2}(x) = T_{\theta}^{1}( T_{\theta}^{0}(x))$$
+$$\Rightarrow T_{\theta}^{2}(x) = T_{\theta}^{1}\left( T_{\theta}^{0}(x) \right)$$
 
-$$\Rightarrow T_{\theta}^{n} = ( T_{\theta} \circ T_{\theta} \circ \cdots \circ T_{\theta})(x)$$
+$$\Rightarrow T_{\theta}^{n} = \left( T_{\theta} \circ T_{\theta} \circ \cdots \circ T_{\theta} \right)(x)$$
 
 ***Lemma 1***
 
-Sia $\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$ per
+Sia $\Rightarrow T_{\theta}^{n}(x) = \left\{ x + n\theta \right\}$ per
 ogni $n\mathbb{\in N}$. Si dimostra per induzione.
 
 Per $n = 0$, si ha per definizione che:
@@ -170,7 +170,7 @@ E si scrive:
 $\Rightarrow \mathbb{d}(x,y) = \mathbb{d}\left( T_{\theta}^{n}(x),T_{\theta}^{n}(y) \right)$
 per ogni $n\mathbb{\in N}$
 
-![](./image4.gif){width="5.249305555555556in"
+![](media/image4.gif){width="5.249305555555556in"
 height="2.9506944444444443in"}
 
 Quando a partire dal segmento si giunge alla circonferenza, si hanno due
@@ -266,7 +266,7 @@ parametriche:
 $$\left\{ \begin{array}{r}
 x(\omega,\varphi) = \left( R + r \cdot \cos\omega \right)\cos\varphi \\
 y(\omega,\varphi) = \left( R + r \cdot \cos\omega \right)\sin\varphi \\
-z(\omega,\varphi) = r \cdot \sin\omega \\
+z(\omega,\varphi) = r \cdot \sin\omega
 \end{array}{\ \ \ \ \ \ \ \ \ \ \ con}{\ \omega},\ \varphi \in \lbrack 0,2\pi) \right.\ $$
 
 Dove $\omega$, *φ* sono gli angoli di rotazione, *r*  è il raggio del
@@ -276,7 +276,7 @@ rotazione del Toroide.
 Il motivo per il quale si giunge al Toroide è dato dalla seguente
 animazione esemplificativa:
 
-![](./image5.gif){width="4.166666666666667in" height="3.125in"}
+![](media/image5.gif){width="4.166666666666667in" height="3.125in"}
 
 Figura 5: È possibile ottenere un Toroide a partire da un rettangolo se
 si incollano tra di loro il bordo superiore e inferiore e poi quello
@@ -290,12 +290,12 @@ tridimensionale mediante le seguenti proporzioni:
 
 $$\Rightarrow \left\{ \begin{array}{r}
 \theta:2\pi = x:b \\
-\varphi:2\pi = y:h \\
+\varphi:2\pi = y:h
 \end{array} \right.\ $$
 
 $$\Rightarrow \left\{ \begin{array}{r}
 \theta = \frac{2\pi \cdot x}{b} \\
-\varphi = \frac{2\pi \cdot y}{h} \\
+\varphi = \frac{2\pi \cdot y}{h}
 \end{array} \right.\ 
 $$
 
@@ -458,13 +458,12 @@ Infine $\alpha$ può essere ricavato in due modi differenti: considerando
 il reciproco della proiezione dell'ipotenusa sull'asse delle ordinate,
 oppure considerando che $\frac{\alpha}{\beta} = \theta$.
 
-![](./image6.PNG){width="6.129861111111111in" height="2.45in"}
+![](media/image6.PNG){width="6.129861111111111in" height="2.45in"}
 
 **Simulazioni**
 
-![](./image7.gif){width="6.100422134733158in"
-height="3.43125in"}Di seguito si riporta una simulazione relativa al
-caso di moto periodico.
+![](media/image7.gif){width="6.100422134733158in" height="3.43125in"}Di
+seguito si riporta una simulazione relativa al caso di moto periodico.
 
 Si riportano inoltre i valori che caratterizzano tale simulazione.
 
@@ -484,7 +483,7 @@ Si riportano inoltre i valori che caratterizzano tale simulazione.
   $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
   ------------------------------------------------------------------------------------------------------------
 
-![](./image8.gif){width="6.1in" height="3.43125in"}Di seguito si
+![](media/image8.gif){width="6.1in" height="3.43125in"}Di seguito si
 riporta una simulazione relativa al caso di moto non periodico.
 
   -------------------------------------------------------------------------------------------------------------
