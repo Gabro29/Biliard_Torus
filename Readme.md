@@ -162,7 +162,7 @@ $$\Rightarrow T_{\theta}^{M}(x) = { x + M\theta } = { x + M\frac{N}{M} } = { x +
 Si definisce in $\tau(x)$ la distanza tra due punti
 $x,y \in \lbrack 0,1)$, la quantità:
 
-$$\Rightarrow \mathbb{d}(x,y) = min{ |x - y|,|x - y + 1|,|x - y - 1| }$$
+$$\Rightarrow \mathbb{d}(x,y) = min({ |x - y|,|x - y + 1|,|x - y - 1| })$$
 
 E si scrive:
 
