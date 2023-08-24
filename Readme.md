@@ -85,13 +85,13 @@ $$\Rightarrow T_{\theta}^{0}(x) = x$$
 
 $$\Rightarrow T_{\theta}^{1}(x) = T_{\theta}^{0}(x)$$
 
-$$\Rightarrow T_{\theta}^{2}(x) = T_{\theta}^{1}\left( T_{\theta}^{0}(x) \right)$$
+$$\Rightarrow T_{\theta}^{2}(x) = T_{\theta}^{1}( T_{\theta}^{0}(x))$$
 
-$$\Rightarrow T_{\theta}^{n} = \left( T_{\theta} \circ T_{\theta} \circ \cdots \circ T_{\theta} \right)(x)$$
+$$\Rightarrow T_{\theta}^{n} = ( T_{\theta} \circ T_{\theta} \circ \cdots \circ T_{\theta})(x)$$
 
 ***Lemma 1***
 
-Sia $\Rightarrow T_{\theta}^{n}(x) = \left\{ x + n\theta \right\}$ per
+Sia $\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$ per
 ogni $n\mathbb{\in N}$. Si dimostra per induzione.
 
 Per $n = 0$, si ha per definizione che:
