@@ -73,10 +73,10 @@ estese al caso tridimensionale.
 
 Si consideri dunque la funzione:
 
-$\ \ \ \ \  \Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$
-con $\theta\mathbb{\in R}$*.*
+$$\ \ \ \ \  \Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)$
+con $\theta\mathbb{\in R}$$*.*
 
-> $$x \mapsto { x + \theta }$$
+$$x \mapsto { x + \theta }$$
 
 Per semplicità si considera un segmento di lunghezza unitaria e si fissa
 un punto di partenza $x \in \lbrack 0,1)$. Vale che:
