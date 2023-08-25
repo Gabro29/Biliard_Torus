@@ -166,8 +166,10 @@ $$\Rightarrow \mathbb{d}(x,y) = min({ |x - y|,|x - y + 1|,|x - y - 1| })$$
 
 E si scrive:
 
-$\Rightarrow \mathbb{d}(x,y) = \mathbb{d}( T_{\theta}^{n}(x),T_{\theta}^{n}(y) )$
-per ogni $n\mathbb{\in N}$
+$$
+\Rightarrow \mathbb{d}(x,y) = \mathbb{d}( T_{\theta}^{n}(x), T_{\theta}^{n}(y) )
+$$
+
 
 ![](./image4.gif){width="5.249305555555556in"
 height="2.9506944444444443in"}
