@@ -248,7 +248,7 @@ $$
 
 
 Si nota che questa è una sotto-successione di
-${ T_{\theta^{(x)}}^{n} }_{n}$.
+$\{ T_{\theta^{(x)}}^{n} \}_{n}$.
 
 Si applichi ora il *Lemma 2* tra due punti della sotto-successione:
 
