@@ -246,6 +246,7 @@ $$
 $$
 
 
+
 Si nota che questa è una sotto-successione di
 ${ T_{\theta^{(x)}}^{n} }_{n}$.
 
