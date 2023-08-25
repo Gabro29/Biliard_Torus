@@ -191,7 +191,7 @@ i.  Si verifica innanzitutto che elementi di $T_{\theta}^{n}(x)$ siano
 
 Se così non fosse sarebbe:
 
-$$\Rightarrow T_{\theta}^{n}(x) = T_{\theta}^{m}(x) per qualche
+$$\Rightarrow T_{\theta}^{n}(x) = T_{\theta}^{m}(x) \\per\\ qualche\\
 n,m\mathbb{\in N}$$
 
 $$\Rightarrow { x + n\theta } = { x + m\theta }$$
