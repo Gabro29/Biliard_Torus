@@ -218,8 +218,10 @@ $T_{\theta}^{n}(x)$, allora saranno generati $N + 1$ numeri. Affinché
 questi stiano all'interno della precedente suddivisione, deve essere che
 almeno un intervallino ne contenga almeno due. Siano questi:
 
-$\Rightarrow T_{\theta}^{n_{0}}(x)\ e\ T_{\theta}^{m_{0}}(x)$ con
-$n_{0},m_{0} \in { 0,1,2,\ldots,N }$
+$$
+\Rightarrow T_{\theta}^{n_{0}}(x) \quad \text{e} \quad T_{\theta}^{m_{0}}(x) \quad \text{con} \quad n_{0}, m_{0} \in \{0, 1, 2, \ldots, N\}
+$$
+
 
 Vale quindi che:
 
