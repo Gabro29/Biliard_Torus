@@ -229,7 +229,9 @@ $$\Rightarrow \mathbb{d}( \ T_{\theta}^{m_{0}}(x),\ T_{\theta}^{n_{0}}(x) ) < \f
 
 Si applica $T_{\theta}^{- m_{0}}$ (con $n_{0} > m_{0}$):
 
-$$\Rightarrow \mathbb{d}(T_{\theta}^{{- m}_{0}}(x) \circ T_{\theta}^{m_{0}}(x),\ , T_{\theta}^{{- m}_{0}} \circ T_{\theta}^{n_{0}}(x) ) < \frac{1}{N}$$
+$$
+\Rightarrow \mathbb{d}(T_{\theta}^{-m_0}(x) \circ T_{\theta}^{m_0}(x), T_{\theta}^{-m_0} \circ T_{\theta}^{n_0}(x)) < \frac{1}{N}
+$$
 
 $$\Rightarrow \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
