@@ -241,7 +241,10 @@ $$\Rightarrow \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
 Si consideri ora la successione:
 
-$$\Rightarrow { x_{j} }_{j} = { T_{\theta}^{j( n_{0} - m_{0} )}(x) }$$
+$$
+\Rightarrow x_{j} = T_{\theta}^{j(n_{0} - m_{0})}(x)
+$$
+
 
 Si nota che questa è una sotto-successione di
 ${ T_{\theta^{(x)}}^{n} }_{n}$.
@@ -256,9 +259,7 @@ Si applica $T_{\theta}^{- j( n_{0} - m_{0} )}$:
 
 $$= \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
-> Quindi si è ottenuta una sotto-successione che ha un passo più breve
-> di quella di partenza. Poiché è possibile scegliere $N$ grande quanto
-> si vuole, allora anche il passo può essere piccolo quanto si vuole.
+Quindi si è ottenuta una sotto-successione che ha un passo più breve di quella di partenza. Poiché è possibile scegliere $N$ grande quanto si vuole, allora anche il passo può essere piccolo quanto si vuole.
 
 $\Rightarrow \tau(x)$ è densa in $\lbrack 0,1)$.
 
