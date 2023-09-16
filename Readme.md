@@ -1,4 +1,4 @@
-*Unfolding the Billiard*
+#Unfolding the Billiard
 
 **Introduzione**
 
@@ -26,16 +26,14 @@ cui, piuttosto che far rimbalzare la pallina, è stato implementato
 l'effetto pac-man sulle pareti, in questo modo la pallina sbucherà fuori
 dalla parte opposta.
 
-![](./image1.png){width="1.8958333333333333in"
-height="1.9479166666666667in"}
+![](./image1.png)
 
 **Costruzione delle traiettorie**
 
 A partire dalla prima traiettoria vengono tracciate le successive sulla
-base della seguente logica;
+base della seguente logica:
 
-![](./image2.PNG){width="3.5131944444444443in"
-height="1.6541666666666666in"}
+![](./image2.PNG)
 
 È importante notare che l'angolo d'incidenza traiettoria-parete,
 rispetto alla normale della parete stessa, non può essere pari a
@@ -60,7 +58,7 @@ sovrapposte e quindi un ulteriore caso privo d'interesse.
 
 Innanzitutto si osservi l'animazione riportata di seguito:
 
-![](./image3.gif){width="6.2625in" height="3.5208333333333335in"}
+![](./image3.gif)
 
 Si nota che a partire da un segmento, unendo le due estremità, si giunge
 ad una circonferenza. Si passa poi ad un Toroide facendo ruotare la
@@ -129,7 +127,7 @@ Vale che $\Rightarrow \tau(x) \subseteq \lbrack 0,1)$.
 ***Teorema 1***
 
 La successione ${ T_{\theta}^{n}(x) }_{n}$ è periodica
-$\Leftrightarrow \theta\mathbb{\in Q}$.
+$\Leftrightarrow \theta \mathbb{\in Q}$.
 
 DIM:
 
@@ -171,8 +169,7 @@ $$
 $$
 
 
-![](./image4.gif){width="5.249305555555556in"
-height="2.9506944444444443in"}
+![](./image4.gif)
 
 Quando a partire dal segmento si giunge alla circonferenza, si hanno due
 modi per collegare due punti: si formano due archi. La distanza è data
@@ -269,11 +266,15 @@ $\Rightarrow \tau(x)$ è densa in $\lbrack 0,1)$.
 Un Toroide può essere definito mediante le seguenti equazioni
 parametriche:
 
-$${ \begin{array}{r}
-x(\omega,\varphi) = ( R + r \cdot \cos\omega )\cos\varphi \\
-y(\omega,\varphi) = ( R + r \cdot \cos\omega )\sin\varphi \\
-z(\omega,\varphi) = r \cdot \sin\omega \\
-\end{array}{\ \ \ \ \ \ \ \ \ \ \ con}{\ \omega},\ \varphi \in \lbrack 0,2\pi) .\ $$
+$$
+\begin{cases}
+x(\omega, \varphi) = (R + r \cos(\omega)) \cos(\varphi) \\
+y(\omega, \varphi) = (R + r \cos(\omega)) \sin(\varphi) \\
+z(\omega, \varphi) = r \sin(\omega)
+\end{cases}
+\quad \text{for } \omega, \varphi \in [0, 2\pi)
+$$
+
 
 Dove $\omega$, *φ* sono gli angoli di rotazione, *r*  è il raggio del
 tubo del Toroide, *R*  è la distanza dal centro del tubo al centro di
@@ -282,7 +283,7 @@ rotazione del Toroide.
 Il motivo per il quale si giunge al Toroide è dato dalla seguente
 animazione esemplificativa:
 
-![](./image5.gif){width="4.166666666666667in" height="3.125in"}
+![](./image5.gif)
 
 Figura 5: È possibile ottenere un Toroide a partire da un rettangolo se
 si incollano tra di loro il bordo superiore e inferiore e poi quello
@@ -294,16 +295,21 @@ loro, è possibile sfruttare tali punti per mappare una traiettoria
 curvilinea sul Toroide. Passando quindi da un grafico in 2D ad uno
 tridimensionale mediante le seguenti proporzioni:
 
-$$\Rightarrow { \begin{array}{r}
-\theta:2\pi = x:b \\
-\varphi:2\pi = y:h \\
-\end{array} .\ $$
-
-$$\Rightarrow { \begin{array}{r}
-\theta = \frac{2\pi \cdot x}{b} \\
-\varphi = \frac{2\pi \cdot y}{h} \\
-\end{array} .\ 
 $$
+\begin{cases}
+\theta : 2\pi = x : b \\
+\varphi : 2\pi = y : h \\
+\end{cases}
+$$
+
+
+$$
+\begin{cases}
+\theta = \frac{2\pi \cdot x}{b} \\
+\varphi = \frac{2\pi \cdot y}{h}
+\end{cases}
+$$
+
 
 Dove *b* e *h* sono rispettivamente la base e l'altezza del rettangolo.
 Infine sfruttando le coordinate parametriche di prima si costruisce il
@@ -313,13 +319,13 @@ Toroide.
 
 Si consideri un punto $( x_{0},y_{0} ) \in \lbrack 0,1)^{2}$
 e due numeri
-$\alpha,\beta\mathbb{\in R \smallsetminus}\{ 0 }$.
+$\alpha, \beta \in \mathbb{R} \setminus \{0\}$.
 
 Quindi si definisce la mappa:
 
 $$\Rightarrow \phi\mathbb{:R \rightarrow}\lbrack 0,1)^{2}$$
 
-> $t \mapsto ( { x_{0} + \alpha t },{ y_{0} + \beta t } )$
+$$t \mapsto ( { x_{0} + \alpha t },{ y_{0} + \beta t } )$$
 
 Tale mappa rappresenta un moto di natura continua sul Toroide, con
 velocità:
@@ -356,7 +362,7 @@ $$\Rightarrow t = \frac{\lbrack x_{0} + \alpha t \rbrack}{\alpha}$$
 O più in generale:
 
 $\Rightarrow t = \frac{n}{\alpha}$ con
-$n\mathbb{\in Z \smallsetminus}{ 0 \}$
+$n \in \mathbb{Z} \setminus \{0\}$
 
 Dalla seconda si ha che:*\
 *$$\Rightarrow { y_{0} + \beta t } = y_{0}$$
@@ -464,64 +470,47 @@ Infine $\alpha$ può essere ricavato in due modi differenti: considerando
 il reciproco della proiezione dell'ipotenusa sull'asse delle ordinate,
 oppure considerando che $\frac{\alpha}{\beta} = \theta$.
 
-![](./image6.PNG){width="6.129861111111111in" height="2.45in"}
+![](./image6.PNG)
 
 **Simulazioni**
 
-![](./image7.gif){width="6.100422134733158in"
-height="3.43125in"}Di seguito si riporta una simulazione relativa al
+![](./image7.gif)
+
+Di seguito si riporta una simulazione relativa al
 caso di moto periodico.
 
 Si riportano inoltre i valori che caratterizzano tale simulazione.
 
-  ------------------------------------------------------------------------------------------------------------
-  Intersezione               $$\mathbf{m}$$   $$\mathbf{\alpha}$$   $$\mathbf{\beta}$$   $$\mathbf{\theta}$$
-  -------------------------- ---------------- --------------------- -------------------- ---------------------
-  $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
+| Intersezione | **m** | **α** | **β** | **θ** |
+|--------------|-------|-------|-------|-------|
+| (0.2, 0.4)   | 0.2   | 1     | 0.2   | 5.0   |
+| (0.2, 0.4)   | 0.2   | 1     | 0.2   | 5.0   |
+| (0.2, 0.4)   | 0.2   | 1     | 0.2   | 5.0   |
+| (0.2, 0.4)   | 0.2   | 1     | 0.2   | 5.0   |
+| (0.2, 0.4)   | 0.2   | 1     | 0.2   | 5.0   |
+| (0.2, 0.4)   | 0.2   | 1     | 0.2   | 5.0   |
 
-  $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
 
-  $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
+![](./image8.gif)
 
-  $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
+Di seguito si riporta una simulazione relativa al caso di moto non periodico.
 
-  $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
+| Intersezione   | **m** | **α** | **β** | **θ** |
+|----------------|-------|-------|-------|-------|
+| (0.882, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
+| (0.563, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
+| (0.245, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
+| (0.927, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
+| (0.608, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
+| (0.290, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
 
-  $$\mathbf{(0.2,\ 0.4)}$$   $$0.2$$          $$1$$                 $$0.2$$              $$5.0$$
-  ------------------------------------------------------------------------------------------------------------
-
-![](./image8.gif){width="6.1in" height="3.43125in"}Di seguito si
-riporta una simulazione relativa al caso di moto non periodico.
-
-  -------------------------------------------------------------------------------------------------------------
-  Intersezione        $$\mathbf{m}$$   $$\mathbf{\alpha}$$   $$\mathbf{\beta}$$   $$\mathbf{\theta}$$
-  ------------------- ---------------- --------------------- -------------------- -----------------------------
-  $$(0.882,\ 0.4)$$   $$\pi$$          $$1$$                 $$\pi$$              $$0.31830988618379086$$
-
-  (0.563, 0.4)        $$\pi$$          $$1$$                 $$\pi$$              $$0.31830988618379086$$
-
-  (0.245, 0.4)        $$\pi$$          $$1$$                 $$\pi$$              $$0.31830988618379086$$
-
-  (0.927, 0.4)        $$\pi$$          $$1$$                 $$\pi$$              $$0.31830988618379086$$
-
-  $$(0.608,0.4)$$     $$\pi$$          $$1$$                 $$\pi$$              $$0.31830988618379086$$
-
-  $$(0.290,\ 0.4)$$   $$\pi$$          $$1$$                 $$\pi$$              $$0.31830988618379086$$
-  -------------------------------------------------------------------------------------------------------------
 
 Si riportano inoltre alcuni valori che caratterizzano tale simulazione.
 
 **Riferimenti bibliografici**
 
-+-----------------------------------------------------------------------+
 | Fonti Utilizzate                                                      |
-+=======================================================================+
-| Appunti presi durante le lezioni di Analisi I tenute dal Professore   |
-| Matteo Dalla Riva                                                     |
-+-----------------------------------------------------------------------+
-| Paper scientifico di riferimento:                                     |
-|                                                                       |
-| *https://www.sciencedirect.com/science/article/pii/S240589632032317X* |
-+-----------------------------------------------------------------------+
+|-----------------------------------------------------------------------|
+| Appunti presi durante le lezioni di Analisi I tenute dal Professore Matteo Dalla Riva                                                     
+| Paper scientifico di riferimento: *https://www.sciencedirect.com/science/article/pii/S240589632032317X* 
 | Codice sorgente:                                                      |
-+-----------------------------------------------------------------------+
