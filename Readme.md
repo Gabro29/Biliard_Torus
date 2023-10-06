@@ -41,7 +41,7 @@ base della seguente logica:
 
 È importante notare che l'angolo d'incidenza traiettoria-parete,
 rispetto alla normale della parete stessa, non può essere pari a
-\Rightarrow \frac{\pi}{2} per due motivi. Il primo è che la pallina
+\(\Rightarrow \frac{\pi}{2}\) per due motivi. Il primo è che la pallina
 continuerebbe a rimbalzare da bordo a bordo (orizzontalmente o
 verticalmente) e le traiettorie sarebbero tutte sovrapposte, quindi un
 caso banale privo di interesse. Il secondo motivo, decisamente più
