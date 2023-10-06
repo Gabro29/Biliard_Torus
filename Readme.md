@@ -52,7 +52,7 @@ $$\Rightarrow m = {tg}(\alpha)$$
 
 Ricordando il dominio della funzione tangente risulta chiaro che
 l'angolo di incidenza non può essere mai pari a
-$\Rightarrow \frac{\pi}{2}$ .
+$$\Rightarrow \frac{\pi}{2}$$ .
 
 Inoltre, si precisa che: nel caso in cui la pallina urti perfettamente
 uno degli spigoli del *biliardo*, le traiettorie sarebbero tutte
@@ -92,10 +92,10 @@ $$\Rightarrow T_{\theta}^{n} = ( T_{\theta} \circ T_{\theta} \circ \cdots \circ 
 
 ***Lemma 1***
 
-Sia $\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$ per
-ogni $n\mathbb{\in N}$. Si dimostra per induzione.
+Sia $$\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$$ per
+ogni $$n\mathbb{\in N}$$. Si dimostra per induzione.
 
-Per $n = 0$, si ha per definizione che:
+Per $$n = 0$$, si ha per definizione che:
 
 $$\Rightarrow T_{\theta}^{0}(x) = x$$
 
@@ -103,7 +103,7 @@ Al passo n si ha:
 
 $$\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$$
 
-Si applica $T_{\theta}$ ambo i membri:
+Si applica $$T_{\theta}$$ ambo i membri:
 
 $$\Rightarrow T_{\theta} \circ T_{\theta}^{n}(x) = T_{\theta}( { x + n\theta } )$$
 
@@ -122,20 +122,20 @@ $$= { x + (n + 1)\theta }$$
 > ◻
 
 Si definisce inoltre l'immagine della successione
-${ T_{\theta}^{n}(x) }_{n}$ ,
+$${ T_{\theta}^{n}(x) }_{n}$$ ,
 
 l'insieme
-$\Rightarrow \tau(x) = { T_{\theta}^{n}(x):n\mathbb{\in N} }$.
-Vale che $\Rightarrow \tau(x) \subseteq \lbrack 0,1)$.
+$$\Rightarrow \tau(x) = { T_{\theta}^{n}(x):n\mathbb{\in N} }$$.
+Vale che $$\Rightarrow \tau(x) \subseteq \lbrack 0,1)$$.
 
 ***Teorema 1***
 
-La successione ${ T_{\theta}^{n}(x) }_{n}$ è periodica
-$\Leftrightarrow \theta \mathbb{\in Q}$.
+La successione $${ T_{\theta}^{n}(x) }_{n}$$ è periodica
+$$\Leftrightarrow \theta \mathbb{\in Q}$$.
 
 DIM:
 
-Se la successione è periodica, allora esiste un $N\mathbb{\in N}$ tale
+Se la successione è periodica, allora esiste un $$N\mathbb{\in N}$$ tale
 che:
 
 $$\Rightarrow T_{\theta}^{0}(x) = x = T_{\theta}^{N}(x) = x + N\theta - \lbrack x + N\theta\rbrack$$
@@ -144,16 +144,16 @@ Da cui:
 
 $$\Rightarrow \theta = \frac{\lbrack x + N\theta\rbrack}{N}$$
 
-Essendo $\theta$ dato dal rapporto di due numeri interi, allora è un
+Essendo $$\theta$$ dato dal rapporto di due numeri interi, allora è un
 numero razionale e si può scrivere più in generale:
 
-$\Rightarrow \theta = \frac{N}{M}\mathbb{\in Q}$ con $N,M\in\mathbb{Z}, e\, N,M\neq 0$
+$$\Rightarrow \theta = \frac{N}{M}\mathbb{\in Q}$$ con $$N,M\in\mathbb{Z}, e\, N,M\neq 0$$
 
 
-Per $\theta = 0$, si ha il caso base della definizione ed il teorema è
+Per $$\theta = 0$$, si ha il caso base della definizione ed il teorema è
 chiaramente verificato. Mentre per dimostrare il teorema globalmente
 basta considerare anche un solo caso in cui si nota la periodicità. Per
-esempio, al passo $M$ si avrà:
+esempio, al passo $$M$$ si avrà:
 
 $$\Rightarrow T_{\theta}^{M}(x) = { x + M\theta } = { x + M\frac{N}{M} } = { x + N } = { x } = x = T_{\theta}^{0}(x)$$
 
@@ -161,8 +161,8 @@ $$\Rightarrow T_{\theta}^{M}(x) = { x + M\theta } = { x + M\frac{N}{M} } = { x +
 
 ***Lemma 2***
 
-Si definisce in $\tau(x)$ la distanza tra due punti
-$x,y \in \lbrack 0,1)$, la quantità:
+Si definisce in $$\tau(x)$$ la distanza tra due punti
+$$x,y \in \lbrack 0,1)$$, la quantità:
 
 $$\Rightarrow \mathbb{d}(x,y) = min({ |x - y|,|x - y + 1|,|x - y - 1| })$$
 
@@ -183,13 +183,13 @@ seconda dei casi.
 
 ***Teorema 2***
 
-La successione ${ T_{\theta}^{n}(x) }_{n}$ non è periodica
-$\Leftrightarrow \theta\mathbb{\in R \smallsetminus Q}$. In altre parole
-l'immagine $\tau(x)$ è densa in $\lbrack 0,1)$.
+La successione $${ T_{\theta}^{n}(x) }_{n}$$ non è periodica
+$$\Leftrightarrow \theta\mathbb{\in R \smallsetminus Q}$$. In altre parole
+l'immagine $$\tau(x)$$ è densa in $$\lbrack 0,1)$$.
 
 DIM:
 
-i.  Si verifica innanzitutto che elementi di $T_{\theta}^{n}(x)$ siano
+i.  Si verifica innanzitutto che elementi di $$T_{\theta}^{n}(x)$$ siano
     tutti diversi.
 
 Se così non fosse sarebbe:
@@ -202,20 +202,20 @@ $$\Rightarrow x + n\theta - \lbrack x + n\theta\rbrack = x + m\theta - \lbrack x
 
 $$\Rightarrow \theta = \frac{\lbrack x + n\theta\rbrack - \lbrack x + m\theta\rbrack}{n - m}$$
 
-In questo caso $\theta$ è dato dal rapporto di due numeri interi per cui
-$\Rightarrow \theta\mathbb{\in Q}$. Ma si era detto che
-$\theta \in \mathbb{R \smallsetminus Q}$. Quindi gli elementi della
+In questo caso $$\theta$$ è dato dal rapporto di due numeri interi per cui
+$$\Rightarrow \theta\mathbb{\in Q}$$. Ma si era detto che
+$$\theta \in \mathbb{R \smallsetminus Q}$$. Quindi gli elementi della
 successione sono tutti diversi
-$\Leftrightarrow \theta\mathbb{\in R \smallsetminus Q}$, altrimenti si
+$$\Leftrightarrow \theta\mathbb{\in R \smallsetminus Q}$$, altrimenti si
 ricadrebbe nel caso del *Teorema 1*, ossia la successione è periodica.
 
-ii. Si verifica adesso che l'immagine $\tau(x)$ sia densa in
-    $\lbrack 0,1)$.
+ii. Si verifica adesso che l'immagine $$\tau(x)$$ sia densa in
+    $$\lbrack 0,1)$$.
 
-Si divida il segmento unitario, in cui è definita la successione, in $N$
-intervallini di lunghezza $\frac{1}{N}$. Se si considera il fatto che la
-successione parte dal passo $T_{\theta}^{0}(x)$ ed arriva al paso
-$T_{\theta}^{n}(x)$, allora saranno generati $N + 1$ numeri. Affinché
+Si divida il segmento unitario, in cui è definita la successione, in $$N$$
+intervallini di lunghezza $$\frac{1}{N}$$. Se si considera il fatto che la
+successione parte dal passo $$T_{\theta}^{0}(x)$$ ed arriva al paso
+$$T_{\theta}^{n}(x)$$, allora saranno generati $$N + 1$$ numeri. Affinché
 questi stiano all'interno della precedente suddivisione, deve essere che
 almeno un intervallino ne contenga almeno due. Siano questi:
 
@@ -232,7 +232,7 @@ Tenendo conto del *Lemma 2* si ottiene che:
 
 $$\Rightarrow \mathbb{d}( \ T_{\theta}^{m_{0}}(x),\ T_{\theta}^{n_{0}}(x) ) < \frac{1}{N}$$
 
-Si applica $T_{\theta}^{- m_{0}}$ (con $n_{0} > m_{0}$):
+Si applica $$T_{\theta}^{- m_{0}}$$ (con $$n_{0} > m_{0}$$):
 
 $$
 \Rightarrow \mathbb{d}(T_{\theta}^{-m_0}(x) \circ T_{\theta}^{m_0}(x), T_{\theta}^{-m_0} \circ T_{\theta}^{n_0}(x)) < \frac{1}{N}
@@ -249,7 +249,7 @@ $$
 
 
 Si nota che questa è una sotto-successione di
-$\{ T_{\theta^{(x)}}^{n} \}_{n}$.
+$$\{ T_{\theta^{(x)}}^{n} \}_{n}$$.
 
 Si applichi ora il *Lemma 2* tra due punti della sotto-successione:
 
@@ -257,13 +257,13 @@ $$\Rightarrow \mathbb{d}( T_{\theta}^{j( n_{0} - m_{0} )}(x),T_{\theta}^{(j + 1)
 
 $$= \mathbb{d}( T_{\theta}^{j( n_{0} - m_{0} )}(x),T_{\theta}^{j( n_{0} - m_{0} )}( T_{\theta}^{n_{0} - m_{0}}(x) ) )$$
 
-Si applica $T_{\theta}^{- j( n_{0} - m_{0} )}$:
+Si applica $$T_{\theta}^{- j( n_{0} - m_{0} )}$$:
 
 $$= \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
 Quindi si è ottenuta una sotto-successione che ha un passo più breve di quella di partenza. Poiché è possibile scegliere $N$ grande quanto si vuole, allora anche il passo può essere piccolo quanto si vuole.
 
-$\Rightarrow \tau(x)$ è densa in $\lbrack 0,1)$.
+$$\Rightarrow \tau(x)$$ è densa in $$\lbrack 0,1)$$.
 
 **Mappatura sul Toroide**
 
@@ -280,7 +280,7 @@ z(\omega, \varphi) = r \sin(\omega)
 $$
 
 
-Dove $\omega$, *φ* sono gli angoli di rotazione, *r*  è il raggio del
+Dove $$\omega$$, *φ* sono gli angoli di rotazione, *r*  è il raggio del
 tubo del Toroide, *R*  è la distanza dal centro del tubo al centro di
 rotazione del Toroide.
 
@@ -321,9 +321,9 @@ Toroide.
 
 **Toroide denso**
 
-Si consideri un punto $( x_{0},y_{0} ) \in \lbrack 0,1)^{2}$
+Si consideri un punto $$( x_{0},y_{0} ) \in \lbrack 0,1)^{2}$$
 e due numeri
-$\alpha, \beta \in \mathbb{R} \setminus \{0\}$.
+$$\alpha, \beta \in \mathbb{R} \setminus \{0\}$$.
 
 Quindi si definisce la mappa:
 
@@ -346,14 +346,14 @@ $$\Rightarrow \phi(t) = ( \phi_{1}(t),\phi_{2}(t) )$$
 
 ***Teorema 3***
 
-$\phi(t)$ è periodica
-$\Leftrightarrow \frac{\alpha}{\beta}\mathbb{\in Q}$.
+$$\phi(t)$$ è periodica
+$$\Leftrightarrow \frac{\alpha}{\beta}\mathbb{\in Q}$$.
 
 DIM:
 
-Se $\phi(t) = ( x_{0},y_{0} )$ allora
-${\Rightarrow \phi}_{1}(t) = x_{0}$ e
-${\Rightarrow \phi}_{2}(t) = y_{0}$.
+Se $$\phi(t) = ( x_{0},y_{0} )$$ allora
+$${\Rightarrow \phi}_{1}(t) = x_{0}$$ e
+$${\Rightarrow \phi}_{2}(t) = y_{0}$$.
 
 Dalla prima si ha che:
 
@@ -365,8 +365,8 @@ $$\Rightarrow t = \frac{\lbrack x_{0} + \alpha t \rbrack}{\alpha}$$
 
 O più in generale:
 
-$\Rightarrow t = \frac{n}{\alpha}$ con
-$n \in \mathbb{Z} \setminus \{0\}$
+$$\Rightarrow t = \frac{n}{\alpha}$$ con
+$$n \in \mathbb{Z} \setminus \{0\}$$
 
 Dalla seconda si ha che:*\
 *$$\Rightarrow { y_{0} + \beta t } = y_{0}$$
@@ -377,75 +377,75 @@ $$\Rightarrow t = \frac{\lbrack y_{0} + \beta t \rbrack}{\beta}$$
 
 O più in generale:
 
-$\Rightarrow t = \frac{m}{\beta}$ con
-$m\mathbb{\in Z \smallsetminus}{ 0 }$
+$$\Rightarrow t = \frac{m}{\beta}$$ con
+$$m\mathbb{\in Z \smallsetminus}{ 0 }$$
 
-Essendo che la $t$ è la stessa in entrambi i casi, si possono eguagliare
+Essendo che la $$t$$ è la stessa in entrambi i casi, si possono eguagliare
 le equazioni:
 
 $$\Rightarrow t = \frac{n}{\alpha} = \frac{m}{\beta}$$
 
 $$\Rightarrow \frac{\alpha}{\beta} = \frac{n}{m}\mathbb{\  \in Q}$$
 
-Quindi preso $t = \frac{n}{\alpha}$ (ma lo stesso avviene con
-$t = \frac{m}{\beta}$ ) risulta che:
+Quindi preso $$t = \frac{n}{\alpha}$$ (ma lo stesso avviene con
+$$t = \frac{m}{\beta}$$ ) risulta che:
 
 $$\Rightarrow \phi(t) = ( { x_{0} + n },{ y_{0} + \frac{\beta}{\alpha} } )$$
 
-$= ( { x_{0} + n },{ y_{0} + \frac{m}{n} } ) = ( x_{0},y_{0} )$
-per ogni $n,m\mathbb{\in Z \smallsetminus}{ 0 }$
+$$= ( { x_{0} + n },{ y_{0} + \frac{m}{n} } ) = ( x_{0},y_{0} )$$
+per ogni $$n,m\mathbb{\in Z \smallsetminus}{ 0 }$$
 
 ***Teorema 4***
 
-$\phi(t)$ riempie densamente $\lbrack 0,1)^{2}$
-$\Leftrightarrow \frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$.
+$$\phi(t)$$ riempie densamente $$\lbrack 0,1)^{2}$$
+$$\Leftrightarrow \frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$$.
 
 DIM:
 
-Sia $( x_{1},y_{1} ) \in \lbrack 0,1)^{2}$, essendo
-$\beta > 0$ supponiamo sia
-${\Rightarrow \phi}_{2}( t_{0} ) = y_{1}$.
+Sia $$( x_{1},y_{1} ) \in \lbrack 0,1)^{2}$$, essendo
+$$\beta > 0$$ supponiamo sia
+$${\Rightarrow \phi}_{2}( t_{0} ) = y_{1}$$.
 
 Allora si avrà ad un istante di tempo successivo che:
 
 $$\Rightarrow \phi_{2}( t_{0} + \frac{n}{\beta} ) = { y_{0} + \beta t_{0} + n } = { y_{0} + \beta t_{0} }$$
 
-$= {\phi_{2}( t_{0} ) = y}_{1}$ per ogni $n\mathbb{\in Z}$
+$$= {\phi_{2}( t_{0} ) = y}_{1}$$ per ogni $$n\mathbb{\in Z}$$
 
-In altre parole, ad intervalli di tempo $\frac{1}{\beta}$ la traiettoria
-della pallina interseca la retta $y = y_{1}$.
+In altre parole, ad intervalli di tempo $$\frac{1}{\beta}$$ la traiettoria
+della pallina interseca la retta $$y = y_{1}$$.
 
-Considerando la coordinata $\phi_{1}( t_{0} )$ al tempo
-$\frac{n}{\beta}$ , si ha che:
+Considerando la coordinata $$\phi_{1}( t_{0} )$$ al tempo
+$$\frac{n}{\beta}$$ , si ha che:
 
 $${\Rightarrow \phi}_{1}( t_{0} + \frac{n}{\beta} ) = { x_{0} + \alpha t_{0} + {n \cdot \ }_{\overline{\beta}}^{\alpha} } = T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} )$$
 
 Dal *Teorema 2* è noto che
-${ T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} ) }_{n}$è
-densa in $\lbrack 0,1)$ se
-$\frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$.
+$${ T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} ) }_{n}$$ è
+densa in $$\lbrack 0,1)$ se
+$$\frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$$.
 
 Se ne conclude che:
 
 $$\mathbb{N} \ni n \mapsto \phi( t_{0} + \frac{n}{\alpha} ) \in \lbrack 0,1)^{2}$$
 
-Riempie densamente il segmento $( x,y_{1} )$ con
-$x \in \lbrack 0,1)$.
+Riempie densamente il segmento $$( x,y_{1} )$$ con
+$$x \in \lbrack 0,1)$$.
 
-Ma allora $t \mapsto \phi(t)$ si avvicina quanto si vuole anche a
-$( x_{1},y_{1} )$.
+Ma allora $$t \mapsto \phi(t)$$ si avvicina quanto si vuole anche a
+$$( x_{1},y_{1} )$$.
 
 **Relazione tra Biliardo e Intervallo**
 
 Sulla base dei precedenti teoremi è possibile ora mettere in relazione
-$\frac{\alpha}{\beta}$ del caso tridimensionale, con il passo $\theta$
+$\frac{\alpha}{\beta}$ del caso tridimensionale, con il passo $$\theta$$
 del caso unidimensionale.
 
 Si ricorda che la traiettoria della pallina viene definita impostando
 una determinata pendenza, e che se non ci fosse alcuna parete si avrebbe
 una retta. Le limitazioni del calcolatore trattano tale retta come un
 grande segmento, in particolare tale segmento rappresenta l'ipotenusa di
-un triangolo rettangolo. Il passo $\theta$ del caso unidimensionale può
+un triangolo rettangolo. Il passo $$\theta$$ del caso unidimensionale può
 essere calcolato considerando la proiezione dell'ipotenusa sull'asse
 delle ascisse.
 
@@ -463,16 +463,16 @@ $$\Rightarrow f^{'}(x) = m = \beta$$
 
 Un'ulteriore conferma di ciò si può ricavare dal *Teorema 4*:
 
-ad intervalli di tempo $\frac{1}{\beta}$ la traiettoria della pallina
+ad intervalli di tempo $$\frac{1}{\beta}$$ la traiettoria della pallina
 interseca
 
-la retta $y = y_{1}$. Dunque si può ricavare $\beta$ come:
+la retta $$y = y_{1}$$. Dunque si può ricavare $$\beta$$ come:
 
 $$\Rightarrow \beta = \frac{1}{\theta}$$
 
-Infine $\alpha$ può essere ricavato in due modi differenti: considerando
+Infine $$\alpha$$ può essere ricavato in due modi differenti: considerando
 il reciproco della proiezione dell'ipotenusa sull'asse delle ordinate,
-oppure considerando che $\frac{\alpha}{\beta} = \theta$.
+oppure considerando che $$\frac{\alpha}{\beta} = \theta$$.
 
 ![](./image6.PNG)
 
