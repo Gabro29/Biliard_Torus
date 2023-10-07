@@ -247,7 +247,7 @@ $$\Rightarrow \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 Si consideri ora la successione:
 
 $$
-\Rightarrow \{x_{j}\} = \{T_{\theta}^{j(n_{0} - m_{0})}(x)\}
+\Rightarrow \{x_{j}\}_{j} = \{T_{\theta}^{j(n_{0} - m_{0})}(x)\}
 $$
 
 
