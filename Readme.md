@@ -182,7 +182,7 @@ $$
 Quando a partire dal segmento si giunge alla circonferenza, si hanno due
 modi per collegare due punti: si formano due archi. La distanza è data
 quindi dall'arco di lunghezza minima. La facoltà di scegliere il
-percorso minore è contemplata quando si considera l'offset di $\pm 1$ a
+percorso minore è contemplata quando si considera l'offset di $$\pm 1$$ a
 seconda dei casi.
 
 ***Teorema 2***
@@ -253,7 +253,7 @@ $$
 
 
 Si nota che questa è una sotto-successione di
-$$\{ T_{\theta^{(x)}}^{n} \}_{n}$$.
+$$\{ {T_{\theta}^{n}}(x) \}_{n}$$.
 
 Si applichi ora il *Lemma 2* tra due punti della sotto-successione:
 
@@ -265,7 +265,7 @@ Si applica $$T_{\theta}^{- j( n_{0} - m_{0} )}$$:
 
 $$= \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
-Quindi si è ottenuta una sotto-successione che ha un passo più breve di quella di partenza. Poiché è possibile scegliere $N$ grande quanto si vuole, allora anche il passo può essere piccolo quanto si vuole.
+Quindi si è ottenuta una sotto-successione che ha un passo più breve di quella di partenza. Poiché è possibile scegliere $$N$$ grande quanto si vuole, allora anche il passo può essere piccolo quanto si vuole.
 
 $$\Rightarrow \tau(x)$$ è densa in $$\lbrack 0,1)$$.
 
@@ -280,7 +280,7 @@ x(\omega, \varphi) = (R + r \cos(\omega)) \cos(\varphi) \\
 y(\omega, \varphi) = (R + r \cos(\omega)) \sin(\varphi) \\
 z(\omega, \varphi) = r \sin(\omega)
 \end{cases}
-\quad \text{for } \omega, \varphi \in [0, 2\pi)
+\quad \text{con } \omega, \varphi \in [0, 2\pi)
 $$
 
 
@@ -370,8 +370,8 @@ O più in generale:
 $$\Rightarrow t = \frac{n}{\alpha}$$ con
 $$n \in \mathbb{Z} \setminus \{0\}$$
 
-Dalla seconda si ha che:*\
-*$$\Rightarrow \{ y_{0} + \beta t \} = y_{0}$$
+Dalla seconda si ha che:
+$$\Rightarrow \{ y_{0} + \beta t \} = y_{0}$$
 
 $$\Rightarrow y_{0} + \beta t - \lbrack y_{0} + \beta t \rbrack = y_{0}$$
 
@@ -499,11 +499,13 @@ Si riportano inoltre i valori che caratterizzano tale simulazione.
 | (0.2, 0.4)   | 0.2   | 1     | 0.2   | 5.0   |
 
 
+Di seguito si riporta una simulazione relativa al caso di moto non periodico.
+
 ![](./image8.gif)
 
-Il moto non periodico riempie densamente il Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è π
+Il moto non periodico riempie densamente il Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è π.
 
-Di seguito si riporta una simulazione relativa al caso di moto non periodico.
+Si riportano inoltre alcuni valori che caratterizzano tale simulazione.
 
 | Intersezione   | **m** | **α** | **β** | **θ** |
 |----------------|-------|-------|-------|-------|
@@ -514,8 +516,6 @@ Di seguito si riporta una simulazione relativa al caso di moto non periodico.
 | (0.608, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
 | (0.290, 0.4)   | $$\pi$$ | 1     | $$\pi$$ | 0.31830988618379086 |
 
-
-Si riportano inoltre alcuni valori che caratterizzano tale simulazione.
 
 **Riferimenti bibliografici**
 
