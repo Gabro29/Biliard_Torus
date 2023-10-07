@@ -96,7 +96,7 @@ $$\Rightarrow T_{\theta}^{n} = ( T_{\theta} \circ T_{\theta} \circ \cdots \circ 
 
 ***Lemma 1***
 
-Sia $$\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$$ per
+Sia $$T_{\theta}^{n}(x) = \{ x + n\theta \}$$ per
 ogni $$n\mathbb{\in N}$$. Si dimostra per induzione.
 
 Per $$n = 0$$, si ha per definizione che:
