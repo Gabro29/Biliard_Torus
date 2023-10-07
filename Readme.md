@@ -480,12 +480,13 @@ oppure considerando che $$\frac{\alpha}{\beta} = \theta$$.
 
 **Simulazioni**
 
-![](./image7.gif)
-
-Il moto periodico produce una linea chiusa sul Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è 0.2
-
 Di seguito si riporta una simulazione relativa al
 caso di moto periodico.
+
+![](./image7.gif)
+
+Il moto periodico produce una linea chiusa sul Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è 0.2.
+
 
 Si riportano inoltre i valori che caratterizzano tale simulazione.
 
