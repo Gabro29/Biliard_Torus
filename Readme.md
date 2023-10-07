@@ -80,7 +80,7 @@ $$\Rightarrow \ \ T_{\theta}:\lbrack 0,1) \rightarrow \lbrack 0,1)\ con\ \theta 
 $$x \ \mapsto { x + \theta }$$
 
 Per semplicità si considera un segmento di lunghezza unitaria e si fissa
-un punto di partenza $x \in \lbrack 0,1)$. Vale che:
+un punto di partenza $$x \in \lbrack 0,1)$$. Vale che:
 
 $$\Rightarrow T_{\theta}^{0}(x) = x$$
 
@@ -422,7 +422,7 @@ $${\Rightarrow \phi}_{1}( t_{0} + \frac{n}{\beta} ) = { x_{0} + \alpha t_{0} + {
 
 Dal *Teorema 2* è noto che
 $${ T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} ) }_{n}$$ è
-densa in $$\lbrack 0,1)$ se
+densa in $$\lbrack 0,1)$$ se
 $$\frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$$.
 
 Se ne conclude che:
@@ -438,7 +438,7 @@ $$( x_{1},y_{1} )$$.
 **Relazione tra Biliardo e Intervallo**
 
 Sulla base dei precedenti teoremi è possibile ora mettere in relazione
-$\frac{\alpha}{\beta}$ del caso tridimensionale, con il passo $$\theta$$
+$$\frac{\alpha}{\beta}$$ del caso tridimensionale, con il passo $$\theta$$
 del caso unidimensionale.
 
 Si ricorda che la traiettoria della pallina viene definita impostando
@@ -451,7 +451,7 @@ delle ascisse.
 
 $$\Rightarrow \theta = i\cos\gamma$$
 
-Dove $\gamma$ è l'angolo che la retta forma con l'asse delle ascisse.
+Dove $$\gamma$$ è l'angolo che la retta forma con l'asse delle ascisse.
 
 Per quanto riguarda la pendenza, si ricorda che:
 
