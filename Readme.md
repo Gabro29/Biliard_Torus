@@ -96,7 +96,7 @@ $$\Rightarrow T_{\theta}^{n} = ( T_{\theta} \circ T_{\theta} \circ \cdots \circ 
 
 ***Lemma 1***
 
-Sia $$T_{\theta}^{n}(x) = \{ x + n\theta \}$$ per
+Sia $$\Rightarrow T_{\theta}^{n}(x) = \{ x + n\theta \}$$ per
 ogni $$n\mathbb{\in N}$$. Si dimostra per induzione.
 
 Per $$n = 0$$, si ha per definizione che:
@@ -105,36 +105,36 @@ $$\Rightarrow T_{\theta}^{0}(x) = x$$
 
 Al passo n si ha:
 
-$$\Rightarrow T_{\theta}^{n}(x) = { x + n\theta }$$
+$$\Rightarrow T_{\theta}^{n}(x) = \{ x + n\theta \}$$
 
 Si applica $$T_{\theta}$$ ambo i membri:
 
-$$\Rightarrow T_{\theta} \circ T_{\theta}^{n}(x) = T_{\theta}( { x + n\theta } )$$
+$$\Rightarrow T_{\theta} \circ T_{\theta}^{n}(x) = T_{\theta}( \{ x + n\theta \} )$$
 
-$$\Rightarrow T_{\theta}^{n + 1}(x) = { { x + n\theta } + \theta }$$
+$$\Rightarrow T_{\theta}^{n + 1}(x) = \{ \{ x + n\theta \} + \theta \}$$
 
-$$= { (x + n\theta) - \lbrack x + n\theta\rbrack + \theta }$$
+$$= \{ (x + n\theta) - \lbrack x + n\theta\rbrack + \theta \}$$
 
-$$= { x + (n + 1)\theta - \lbrack x + n\theta\rbrack }$$
+$$= \{ x + (n + 1)\theta - \lbrack x + n\theta\rbrack \}$$
 
-$$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta - \lbrack x + n\theta\rbrack \rbrack$$
+$$= \{ x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta - \lbrack x + n\theta\rbrack \rbrack \}$$
 
 $$= x + (n + 1)\theta - \lbrack x + n\theta\rbrack - \lbrack x + (n + 1)\theta \rbrack + \lbrack x + n\theta\rbrack$$
 
-$$= { x + (n + 1)\theta }$$
+$$= \{ x + (n + 1)\theta \}$$
 
 > ◻
 
 Si definisce inoltre l'immagine della successione
-$${ T_{\theta}^{n}(x) }_{n}$$ ,
+$$\{ T_{\theta}^{n}(x) \}_{n}$$ ,
 
 l'insieme
-$$\Rightarrow \tau(x) = { T_{\theta}^{n}(x):n\mathbb{\in N} }$$.
+$$\Rightarrow \tau(x) = \{ T_{\theta}^{n}(x):n\mathbb{\in N} \}$$.
 Vale che $$\Rightarrow \tau(x) \subseteq \lbrack 0,1)$$.
 
 ***Teorema 1***
 
-La successione $${ T_{\theta}^{n}(x) }_{n}$$ è periodica
+La successione $$\{ T_{\theta}^{n}(x) \}_{n}$$ è periodica
 $$\Leftrightarrow \theta \mathbb{\in Q}$$.
 
 DIM:
@@ -159,7 +159,7 @@ chiaramente verificato. Mentre per dimostrare il teorema globalmente
 basta considerare anche un solo caso in cui si nota la periodicità. Per
 esempio, al passo $$M$$ si avrà:
 
-$$\Rightarrow T_{\theta}^{M}(x) = { x + M\theta } = { x + M\frac{N}{M} } = { x + N } = { x } = x = T_{\theta}^{0}(x)$$
+$$\Rightarrow T_{\theta}^{M}(x) = \{ x + M\theta \} = \{ x + M\frac{N}{M} \} = \{ x + N \} = \{ x \} = x = T_{\theta}^{0}(x)$$
 
 > ◻
 
@@ -168,7 +168,7 @@ $$\Rightarrow T_{\theta}^{M}(x) = { x + M\theta } = { x + M\frac{N}{M} } = { x +
 Si definisce in $$\tau(x)$$ la distanza tra due punti
 $$x,y \in \lbrack 0,1)$$, la quantità:
 
-$$\Rightarrow \mathbb{d}(x,y) = min({ |x - y|,|x - y + 1|,|x - y - 1| })$$
+$$\Rightarrow \mathbb{d}(x,y) = min(\{ |x - y|,|x - y + 1|,|x - y - 1| \})$$
 
 E si scrive:
 
@@ -187,7 +187,7 @@ seconda dei casi.
 
 ***Teorema 2***
 
-La successione $${ T_{\theta}^{n}(x) }_{n}$$ non è periodica
+La successione $$\{ T_{\theta}^{n}(x) \}_{n}$$ non è periodica
 $$\Leftrightarrow \theta\mathbb{\in R \smallsetminus Q}$$. In altre parole
 l'immagine $$\tau(x)$$ è densa in $$\lbrack 0,1)$$.
 
@@ -200,7 +200,7 @@ Se così non fosse sarebbe:
 
 $$\Rightarrow T_{\theta}^{n}(x) = T_{\theta}^{m}(x) \\ per \\ qualche \\ n,m\mathbb{\in N}$$
 
-$$\Rightarrow { x + n\theta } = { x + m\theta }$$
+$$\Rightarrow \{ x + n\theta \} = \{ x + m\theta \}$$
 
 $$\Rightarrow x + n\theta - \lbrack x + n\theta\rbrack = x + m\theta - \lbrack x + m\theta\rbrack$$
 
@@ -247,7 +247,7 @@ $$\Rightarrow \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 Si consideri ora la successione:
 
 $$
-\Rightarrow x_{j} = T_{\theta}^{j(n_{0} - m_{0})}(x)
+\Rightarrow \{x_{j}\} = \{T_{\theta}^{j(n_{0} - m_{0})\}(x)
 $$
 
 
@@ -293,9 +293,7 @@ animazione esemplificativa:
 
 ![](./image5.gif)
 
-Figura 5: È possibile ottenere un Toroide a partire da un rettangolo se
-si incollano tra di loro il bordo superiore e inferiore e poi quello
-destro e sinistro..
+È possibile ottenere un Toroide a partire da un rettangolo se si incollano tra di loro il bordo superiore e inferiore e poi quello destro e sinistro
 
 Ricordando che la traiettoria della pallina è costruita mediante rette,
 e che queste vengono disegnate operativamente unendo dei punti tra di
@@ -333,7 +331,7 @@ Quindi si definisce la mappa:
 
 $$\Rightarrow \phi\mathbb{:R \rightarrow}\lbrack 0,1)^{2}$$
 
-$$t \mapsto ( { x_{0} + \alpha t },{ y_{0} + \beta t } )$$
+$$t \mapsto ( \{ x_{0} + \alpha t \},\{ y_{0} + \beta t \} )$$
 
 Tale mappa rappresenta un moto di natura continua sul Toroide, con
 velocità:
@@ -342,9 +340,9 @@ $$\Rightarrow \overrightarrow{v} = (\alpha,\beta)$$
 
 Per semplicità si scrive:
 
-$${\Rightarrow \phi}_{1}(t) = { x_{0} + \alpha t }$$
+$${\Rightarrow \phi}_{1}(t) = \{ x_{0} + \alpha t \}$$
 
-$${\Rightarrow \phi}_{2}(t) = { y_{0} + \beta t }$$
+$${\Rightarrow \phi}_{2}(t) = \{ y_{0} + \beta t \}$$
 
 $$\Rightarrow \phi(t) = ( \phi_{1}(t),\phi_{2}(t) )$$
 
@@ -361,7 +359,7 @@ $${\Rightarrow \phi}_{2}(t) = y_{0}$$.
 
 Dalla prima si ha che:
 
-$$\Rightarrow { x_{0} + \alpha t } = x_{0}$$
+$$\Rightarrow \{ x_{0} + \alpha t \} = x_{0}$$
 
 $$\Rightarrow x_{0} + \alpha t - \lbrack x_{0} + \alpha t \rbrack = x_{0}$$
 
@@ -373,7 +371,7 @@ $$\Rightarrow t = \frac{n}{\alpha}$$ con
 $$n \in \mathbb{Z} \setminus \{0\}$$
 
 Dalla seconda si ha che:*\
-*$$\Rightarrow { y_{0} + \beta t } = y_{0}$$
+*$$\Rightarrow \{ y_{0} + \beta t \} = y_{0}$$
 
 $$\Rightarrow y_{0} + \beta t - \lbrack y_{0} + \beta t \rbrack = y_{0}$$
 
@@ -394,9 +392,9 @@ $$\Rightarrow \frac{\alpha}{\beta} = \frac{n}{m}\mathbb{\  \in Q}$$
 Quindi preso $$t = \frac{n}{\alpha}$$ (ma lo stesso avviene con
 $$t = \frac{m}{\beta}$$ ) risulta che:
 
-$$\Rightarrow \phi(t) = ( { x_{0} + n },{ y_{0} + \frac{\beta}{\alpha} } )$$
+$$\Rightarrow \phi(t) = ( \{ x_{0} + n \},\{ y_{0} + \frac{\beta}{\alpha} \} )$$
 
-$$= ( { x_{0} + n },{ y_{0} + \frac{m}{n} } ) = ( x_{0},y_{0} )$$
+$$= ( \{ x_{0} + n \},\{ y_{0} + \frac{m}{n} \} ) = ( x_{0},y_{0} )$$
 per ogni $$n,m\mathbb{\in Z \smallsetminus}{ 0 }$$
 
 ***Teorema 4***
@@ -412,7 +410,7 @@ $${\Rightarrow \phi}_{2}( t_{0} ) = y_{1}$$.
 
 Allora si avrà ad un istante di tempo successivo che:
 
-$$\Rightarrow \phi_{2}( t_{0} + \frac{n}{\beta} ) = { y_{0} + \beta t_{0} + n } = { y_{0} + \beta t_{0} }$$
+$$\Rightarrow \phi_{2}( t_{0} + \frac{n}{\beta} ) = \{ y_{0} + \beta t_{0} + n \} = \{ y_{0} + \beta t_{0} \}$$
 
 $$= {\phi_{2}( t_{0} ) = y}_{1}$$ per ogni $$n\mathbb{\in Z}$$
 
@@ -422,10 +420,10 @@ della pallina interseca la retta $$y = y_{1}$$.
 Considerando la coordinata $$\phi_{1}( t_{0} )$$ al tempo
 $$\frac{n}{\beta}$$ , si ha che:
 
-$${\Rightarrow \phi}_{1}( t_{0} + \frac{n}{\beta} ) = { x_{0} + \alpha t_{0} + {n \cdot \ }_{\overline{\beta}}^{\alpha} } = T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} )$$
+$${\Rightarrow \phi}_{1}( t_{0} + \frac{n}{\beta} ) = \{ x_{0} + \alpha t_{0} + {n \cdot \ }_{\overline{\beta}}^{\alpha} \} = T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} )$$
 
 Dal *Teorema 2* è noto che
-$${ T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} ) }_{n}$$ è
+$$\{ T_{\frac{\alpha}{\beta}}^{n}( x_{0} + \alpha t_{0} ) \}_{n}$$ è
 densa in $$\lbrack 0,1)$$ se
 $$\frac{\alpha}{\beta}\mathbb{\in R \smallsetminus Q}$$.
 
@@ -484,6 +482,8 @@ oppure considerando che $$\frac{\alpha}{\beta} = \theta$$.
 
 ![](./image7.gif)
 
+Il moto periodico produce una linea chiusa sul Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è 0.2
+
 Di seguito si riporta una simulazione relativa al
 caso di moto periodico.
 
@@ -500,6 +500,8 @@ Si riportano inoltre i valori che caratterizzano tale simulazione.
 
 
 ![](./image8.gif)
+
+Il moto non periodico riempie densamente il Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è π
 
 Di seguito si riporta una simulazione relativa al caso di moto non periodico.
 
