@@ -390,7 +390,7 @@ Un'ulteriore conferma di ciò si può ricavare dal *Teorema 4*: ad intervalli di
 
 $$ \beta = \frac{1}{\theta}.$$
 
-Infine $\alpha$ può essere ricavato in due modi differenti: considerando il reciproco della proiezione dell'ipotenusa sull'asse delle ordinate, oppure considerando che $\frac{\alpha}{\beta} = \theta$.
+Infine $$\alpha$$ può essere ricavato in due modi differenti: considerando il reciproco della proiezione dell'ipotenusa sull'asse delle ordinate, oppure considerando che $$\frac{\alpha}{\beta} = \theta$$.
 
 ![](./image6.PNG)
 
