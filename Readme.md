@@ -162,7 +162,7 @@ L'equivalenza di (i) e (ii) viene dal lemma. Per mostrare che (iii) implica (i) 
 
 Se così non fosse sarebbe:
 
-$$T_{\theta}^{n}(x) = T_{\theta}^{m}(x)$$per qualche $n,m\mathbb{\in N}$
+$$T_{\theta}^{n}(x) = T_{\theta}^{m}(x)$$per qualche $$n,m\mathbb{\in N}$$
 
 $$ \{ x + n\theta \} = \{ x + m\theta \}$$
 
@@ -174,7 +174,7 @@ In questo caso $$\theta$$ è dato dal rapporto di due numeri interi per cui $$\t
 
 2. Si verifica adesso che l'immagine $$\tau(x)$$ è densa in $$\lbrack 0,1)$$.
 
-Si divida il segmento unitario, in cui è definita la successione, in $N$ intervallini di lunghezza $$\frac{1}{N}$$. Se si considera il fatto che la
+Si divida il segmento unitario, in cui è definita la successione, in $$N$$ intervallini di lunghezza $$\frac{1}{N}$$. Se si considera il fatto che la
 successione parte dal passo $$T_{\theta}^{0}(x)$$ ed arriva al paso
 $$T_{\theta}^{N}(x)$$, allora saranno generati $$N + 1$$ numeri. Affinché questi stiano all'interno della precedente suddivisione, deve essere che almeno un intervallino ne contenga almeno due. Siano questi:
 
@@ -191,7 +191,7 @@ e quindi
 
 $$\mathbb{d}( \ T_{\theta}^{m_{0}}(x),\ T_{\theta}^{n_{0}}(x) ) < \frac{1}{N}.$$
 
-Si applica $$T_{\theta}^{- m_{0}}$ (con $n_{0} > m_{0}$$) e ricordando il Lemma 2 si ottiene:
+Si applica $$T_{\theta}^{- m_{0}}$$ (con $$n_{0} > m_{0}$$) e ricordando il Lemma 2 si ottiene:
 
 $$
 \mathbb{d}(T_{\theta}^{-m_0}(x) \circ T_{\theta}^{m_0}(x), T_{\theta}^{-m_0} \circ T_{\theta}^{n_0}(x)) < \frac{1}{N}
@@ -221,7 +221,7 @@ $$= \mathbb{d}( x,T_{\theta}^{n_{0} - m_{0}}(x) ) < \frac{1}{N}$$
 
 Quindi si è ottenuta una sotto-successione che ha un passo più breve di $$\frac{1}{N}$$. Poiché è possibile scegliere $$N$$ grande quanto si vuole, allora anche il passo può essere piccolo quanto si vuole.
 
-Concludiamo che $$\tau(x)$$ è densa in $$\lbrack 0,1)$.
+Concludiamo che $$\tau(x)$$ è densa in $$\lbrack 0,1)$$.
 
 **Mappatura sul Toroide**
 
