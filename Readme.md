@@ -120,7 +120,7 @@ $$\theta = \frac{\lbrack x + N\theta\rbrack}{N}$$
 
 Essendo $$\theta$$ dato dal rapporto di due numeri interi, allora è un numero razionale. Nell'altra direzione, se si suppone $$\theta\mathbb{\in Q}$$, allora
 
-$$\theta = \frac{N}{M}\mathbb{\in Q}$$ con $N,M\in\mathbb{Z}, e\, M\neq 0$
+$$\theta = \frac{N}{M}\mathbb{\in Q}$$ con $$N,M\in\mathbb{Z}, e\, M\neq 0$$
 
 
 Per $$\theta = 0$$, si ha il caso base della definizione ed il teorema è
@@ -153,7 +153,7 @@ Quando a partire dal segmento si giunge alla circonferenza, si hanno due modi pe
 Le seguenti tre proposizioni sono equivalneti:
 (i) La successione $$\{ T_{\theta}^{n}(x) \}_{n}$$ non è periodica
 (ii) $$\theta\mathbb{\in R \smallsetminus Q}$$
-(iii) L'immagine $$\tau(x)$ è densa in $\lbrack 0,1)$$.
+(iii) L'immagine $$\tau(x)$$ è densa in $$\lbrack 0,1)$$.
 
 DIM:
 L'equivalenza di (i) e (ii) viene dal lemma. Per mostrare che (iii) implica (i) e (ii) basta notare che se $$\{ T_{\theta}^{n}(x) \}_{n}$$ è periodica, allora $$\tau(x)$$ è finito e non può essere denso. Rimane da dimostrare che (ii) (oppure (i)) implica (iii). Facciamo la dimostrazione in due passi.
