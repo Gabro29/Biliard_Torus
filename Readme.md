@@ -328,7 +328,7 @@ $$\frac{\alpha}{\beta} = \frac{n}{m}\mathbb{\  \in Q}.$$
 $$\phi(t) = ( \{ x_{0} + n \},\{ y_{0} + \frac{n\beta}{\alpha} \} )$$
 
 $$= ( \{ x_{0} + n \},\{ y_{0} + m\} = ( x_{0},y_{0} )$$
-per ogni $$n,m\mathbb{\in Z \smallsetminus}{ 0 }.$$
+per ogni $$n,m\mathbb{\in Z \smallsetminus}\{ 0 \}.$$
 
 ***Teorema 4***
 
@@ -341,9 +341,7 @@ $${\phi}_{2}( t_{0} ) = y_{1}.$$
 
 Allora si avrà che
 
-$$\phi_{2}( t_{0} + \frac{n}{\beta} ) = \{ y_{0} + \beta t_{0} + n \} = \{ y_{0} + \beta t_{0} \}$$
-
-$$= {\phi_{2}( t_{0} ) = y}_{1}$$ per ogni $$n\mathbb{\in Z}.$$
+$$\phi_{2}( t_{0} + \frac{n}{\beta} ) = \{ y_{0} + \beta t_{0} + n \} = \{ y_{0} + \beta t_{0} \} = {\phi_{2}( t_{0} ) = y}_{1}$$ per ogni $$n\mathbb{\in Z}.$$
 
 In altre parole, ad intervalli di tempo $$\frac{1}{\beta}$$ la traiettoria della pallina interseca la retta $$y = y_{1}$$.
 
