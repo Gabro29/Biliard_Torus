@@ -26,7 +26,7 @@ A partire dalla prima traiettoria vengono tracciate le successive sulla base del
 
 Tale logica implementa l’effetto pac-man: il punto d’intersezione con la parete del biliardo viene traslato dalla parte opposta per disegnare la nuova traiettoria. La pendenza non viene cambiata mentre, tramite la formula inversa della retta si ricava l’intercetta.
 
-È importante notare che nel nostro algoritmo  l'angolo d'incidenza traiettoria-parete, rispetto alla normale della parete stessa, non può essere pari a $\frac{\pi}{2}$. Il motivo è che la pendenza di una retta è pari alla tangente dell'angolo che essa forma con l'asse delle ascisse
+È importante notare che nel nostro algoritmo  l'angolo d'incidenza traiettoria-parete, rispetto alla normale della parete stessa, non può essere pari a $$\frac{\pi}{2}$$. Il motivo è che la pendenza di una retta è pari alla tangente dell'angolo che essa forma con l'asse delle ascisse
 
 $$ m = {tg}(\alpha)$$
 
